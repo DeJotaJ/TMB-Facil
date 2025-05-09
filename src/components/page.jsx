@@ -222,12 +222,12 @@ export default function CalculadoraTMB() {
           </div>
         </div>
         {/* ANUNCIOS MOBILE*/}
-        <div className="md:hidden bg-zinc-100 max-h-[15vh] min-h-[10vh] flex items-center justify-center rounded-lg"> 
+        <div className="md:hidden bg-zinc-100/25 max-h-[15vh] min-h-[10vh] flex items-center justify-center rounded-lg"> 
           <AdComponent/>
         </div>
         {/* ANUNCIOS MOBILE*/}
         {/* ANUNCIOS DESKTOP*/}
-        <div className="hidden md:flex md:absolute right-5 top-20 w-60 h-3/3 bg-zinc-100 rounded-lg shadow-md justify-center items-center">
+        <div className="hidden md:flex md:absolute right-5 top-20 w-60 h-3/3 bg-zinc-100/25 rounded-lg shadow-md justify-center items-center">
           <AdComponent/>
         </div>
         {/* ANUNCIO DESKTOP*/}
