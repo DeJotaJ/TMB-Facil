@@ -215,8 +215,8 @@ export default function Home(){
                         </div>
                         <div className="flex flex-col mt-2 md:m-0 gap-3 lg:gap-2">
                             <span className="text-base font-normal md:font-semibold">Quer entender como a hidratação pode transformar sua saúde e sua rotina? Clique abaixo e descubra os fundamentos completos.</span>
-                            <span className="w-fit rounded-lg max-[420px]:text-sm text-base font-semibold bg-[#363648] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
-                                <a href="#" title="Página em construção">Saber mais sobre Hidratação</a>
+                            <span className="w-fit rounded-lg max-[420px]:text-sm text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
+                                <a href="/hidratacao" title="Página em construção">Saber mais sobre Hidratação</a>
                             </span>
                         </div>
                     </section>

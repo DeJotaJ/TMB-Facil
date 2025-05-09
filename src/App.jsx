@@ -9,6 +9,8 @@ import PoliPriv from './pages/politicaPrivacidade'
 import Nutricao from './pages/nutricao'
 import Macros from './pages/macronutrientes'
 import Micros from './pages/micronutrientes'
+import Hidratacao from './pages/hidratacao'
+import Metabolismo from './pages/digestaoMetabolismo'
 import { Analytics } from '@vercel/analytics/react'
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
         <Route path="/nutricao" element={<Nutricao/>}/>
         <Route path="/macronutrientes" element={<Macros/>}/>
         <Route path="/micronutrientes" element={<Micros/>}/>
+        <Route path="/hidratacao" element={<Hidratacao/>}/>
+        <Route path="/digestao-e-metabolismo" element={<Metabolismo/>}/>
       </Routes>
       <Analytics/>
       <Footer/>
