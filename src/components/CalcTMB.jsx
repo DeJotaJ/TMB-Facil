@@ -106,7 +106,7 @@ export default function CalculadoraTMB() {
                     placeholder="70"
                     className={`w-full px-3 py-2 border rounded-md ${
                       errors.peso ? "border-red-500" : "border-[#283B48"
-                    } focus:outline-none focus:ring-1 focus:ring-[#00A6C0] placeholder:text-[#283B48]`}
+                    } focus:outline-none focus:ring-1 focus:ring-[#00A6C0] placeholder:text-[#7295ad]`}
                     {...register("peso", {
                       required: "Peso é obrigatório",
                       min: { value: 30, message: "Peso deve ser pelo menos 30kg" },
@@ -127,7 +127,7 @@ export default function CalculadoraTMB() {
                     placeholder="170"
                     className={`w-full px-3 py-2 border rounded-md ${
                       errors.altura ? "border-red-500" : "border-[#283B48"
-                    } focus:outline-none focus:ring-1 focus:ring-[#00A6C0] placeholder:text-[#283B48]`}
+                    } focus:outline-none focus:ring-1 focus:ring-[#00A6C0] placeholder:text-[#7295ad]`}
                     {...register("altura", {
                       required: "Altura é obrigatória",
                       min: { value: 100, message: "Altura deve ser pelo menos 100cm" },
@@ -149,7 +149,7 @@ export default function CalculadoraTMB() {
                   placeholder="30"
                   className={`w-full px-3 py-2 border rounded-md ${
                     errors.idade ? "border-red-500" : "border-[#283B48"
-                  } focus:outline-none focus:ring-1 focus:ring-[#00A6C0] placeholder:text-[#283B48]`}
+                  } focus:outline-none focus:ring-1 focus:ring-[#00A6C0] placeholder:text-[#7295ad]`}
                   {...register("idade", {
                     required: "Idade é obrigatória",
                     min: { value: 15, message: "Idade deve ser pelo menos 15 anos" },
@@ -227,7 +227,7 @@ export default function CalculadoraTMB() {
         </div>
         {/* ANUNCIOS MOBILE*/}
         {/* ANUNCIOS DESKTOP*/}
-        <div className="hidden md:flex md:absolute right-5 top-20 w-60 h-3/3 bg-zinc-100/25 rounded-lg shadow-md justify-center items-center">
+        <div className="hidden md:flex md:absolute right-5 top-20 w-60 h-3/3 bg-zinc-100/0 rounded-lg shadow-none justify-center items-center">
           <AdComponent/>
         </div>
         {/* ANUNCIO DESKTOP*/}

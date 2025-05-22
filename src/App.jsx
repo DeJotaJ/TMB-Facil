@@ -1,13 +1,18 @@
 import './App.css'
 import Header from './components/header'
-import Page from './components/page'
+import Page from './components/CalcTMB'
+import Home from './pages/home'
+import { Route, Routes } from 'react-router'
 
 function App() {
 
   return (
     <>
       <Header/>
-      <Page/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/calculadora" element={<Page/>}/>
+      </Routes>
     </>
   )
 }
