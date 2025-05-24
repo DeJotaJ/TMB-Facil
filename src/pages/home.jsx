@@ -3,7 +3,7 @@ export default function Home(){
     return(
         <>
             {/* BANNER */}
-            <main className="relative w-full min-h-[50vh] md:min-h-[90vh] bg-[url(./prato01.jpg)]  md:bg-right bg-contain bg-top md:bg-contain  bg-no-repeat flex">
+            <main className="relative w-full min-h-[50vh] md:min-h-[90vh] bg-[url('/prato01.jpg')]  md:bg-right bg-contain bg-top md:bg-contain  bg-no-repeat flex">
                 <div className="
                         w-full min-h-full py-4 md:p-0 md:m-0 bg-linear-to-t from-[#E5E5E5] from-45% to-transparent to-75%
                         flex flex-col justify-end gap-4
