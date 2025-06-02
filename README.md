@@ -1,12 +1,36 @@
-# React + Vite
+# Calculadora de TMB e Calorias Diárias
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação web para calcular a Taxa Metabólica Basal (TMB) e as necessidades calóricas diárias para diferentes objetivos: cutting (perda de peso), manutenção e bulking (ganho de massa muscular).
 
-Currently, two official plugins are available:
+<!-- [Calculadora de TMB](/placeholder.svg?height=300&width=600)-->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 Sobre o Projeto
 
-## Expanding the ESLint configuration
+Esta calculadora permite aos usuários determinar suas necessidades calóricas com base em dados pessoais como peso, altura, idade, sexo e nível de atividade física. A aplicação utiliza a fórmula de Harris-Benedict para calcular a TMB e então aplica fatores específicos para determinar as calorias necessárias para diferentes objetivos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Funcionalidades
+
+- **Cálculo da TMB** usando a fórmula de Harris-Benedict
+- **Cálculo de calorias diárias** para três objetivos:
+  - Cutting (déficit de 20%)
+  - Manutenção
+  - Bulking (superávit de 20%)
+- **Interface intuitiva** com formulário de entrada de dados
+- **Validação de dados** para garantir valores dentro de limites razoáveis
+- **Design responsivo** para desktop e dispositivos móveis
+- **Visualização em abas** para facilitar a comparação entre diferentes objetivos
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React** - Biblioteca JavaScript para construção de interfaces
+- **Next.js** - Framework React para desenvolvimento web
+- **JavaScript** - Linguagem de programação
+- **Tailwind CSS** - Framework CSS utilitário
+- **React Hook Form** - Biblioteca para gerenciamento de formulários
+
+## 🚀 Como Instalar e Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/calculadora-tmb.git
+   cd calculadora-tmb
