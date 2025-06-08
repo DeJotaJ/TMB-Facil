@@ -66,11 +66,29 @@ export default function CalculadoraTMB() {
     const cutting = manutencao * 0.8
     const bulking = manutencao * 1.2
 
+    //Calcula o IMC
+    let imc = 0;
+    const h = (altura / 100).toFixed(2);
+    imc = (peso / (h * h))
+    console.log(peso, h, imc)
+
+    let message = '';
+
+    if (imc < 18.5) message = 'Abaixo do peso';
+    else if (imc < 25) message = 'Peso normal';
+    else if (imc < 30) message = 'Sobrepeso';
+    else if (imc < 35) message = 'Obesidade grau I';
+    else if (imc < 40) message = 'Obesidade grau II';
+    else message = 'Obesidade grau III';
+
+
     setResultados({
       tmb: Math.round(tmb),
       cutting: Math.round(cutting),
       manutencao: Math.round(manutencao),
       bulking: Math.round(bulking),
+      imc: Math.floor(imc),
+      message
     })
   }
 
@@ -241,6 +259,11 @@ export default function CalculadoraTMB() {
           <div className="p-6">
             {resultados ? (
               <div>
+
+                <div className="w-full h-auto py-2 font-medium text-lg">
+                    Seu IMC é de: {resultados.imc} - {resultados.message}
+                </div>
+
                 {/* Tabs de navegação */}
                 <div className="grid grid-cols-3 gap-2 mb-6">
                   <button
