@@ -26,31 +26,65 @@ export default function Home(){
                     </a>
                 </div>
             </main>
-            <section className="relative w-full min-h-screen flex justify-center bg-[#283B48]">
+            <section className="relative w-full min-h-screen flex justify-center  bg-[#283B48]">
                 <article className="
-                        w-full  text-sm  flex flex-col items-center gap-12 py-4 px-8  bg-[#E5E5E5]
+                        w-full  text-sm  flex flex-col items-center gap-0 py-4 px-8  bg-[#E5E5E5]
                         md:w-2/3 md:text-base md:px-12 md:py-8
                 ">
-                    <span className="text-2xl md:text-3xl font-bold font-sans"> O QUE É TMB?</span>
-                    <p>
-                        TMB é taxa metabólica basal, representa a quantidade de energia que o organismo consome para manter suas funções 
-                        essenciais enquanto está em descanso, como a respiração, os batimentos cardíacos e a regulação da temperatura 
-                        corporal.
+                    {/* EXPLICAÇÃO TMB */}
+                    <span className="text-2xl md:text-3xl font-bold font-sans mb-4 md:mb-8"> O QUE É TMB?</span>
+                    <p className="w-full h-auto mb-12">
+                        TMB é a Taxa Metabólica Basal. Ela representa a quantidade de energia que o corpo consome para manter suas 
+                        funções vitais em repouso — como respiração, circulação sanguínea e regulação da temperatura corporal.
                         <br/><br/>
-                        O gasto energético corresponde à quantidade total de energia que uma pessoa utiliza ao longo do dia. Ele não se 
-                        limita apenas às funções básicas do organismo, como a taxa metabolica basal, mas também inclui o consumo de 
-                        energia durante atividades físicas. De maneira geral, adotou-se o valor aproximado de 2.000 kcal por dia como 
-                        referência média para adultos. No entanto, esse número pode variar significativamente de acordo com o indivíduo.
+                        Já o gasto energético total corresponde ao número de calorias que seu corpo usa ao longo do dia, incluindo 
+                        atividades físicas, digestão e movimentações básicas.
                         <br/><br/>
-                        Esse gasto varia conforme <b>idade, peso e sexo</b>, e é fundamental para estimar o total de calorias utilizadas 
-                        diariamente. Por isso, é uma ferramenta importante no <b>planejamento nutricional</b> de quem busca <b>manter o peso, 
-                        ganhar massa ou perder gordura</b>.
-                        Usando <a href="/calculadora" className="font-semibold underline text-[#283B48]">nossa calculadora</a> você descobre sua TMB e seu gasto energético, assim podendo controlar melhor o que come.
+                        Saber esses valores é essencial para quem deseja:
+                        <ul className="list-disc pl-6">
+                            <li>
+                                Manter o peso atual
+                            </li>
+                            <li>
+                                Emagrecer de forma segura
+                            </li>
+                            <li>
+                                Ganhar massa muscular sem exageros
+                            </li>
+                        </ul>
+                        <br/>
+                        Esses dados variam de acordo com sua idade, peso, sexo e rotina. Nossa calculadora te ajuda a descobrir esses números com precisão.
+                        <br/><br/>
+                        <a href="/calculadora" className="font-semibold underline text-[#283B48]">Clique aqui para calculalar sua TMB</a>
                     </p>
-                    <span className="w-full text-xl md:text-2xl font-semibold font-sans"> Como faço para saber quanto estou comendo? </span>
-                    <p>
-                        Existe alguns aplicativos para você buscar alimentos, criar receitas e até deixar suas refeições prontas,
-                        registrando numa espécie de diário. O que eu uso é o MyFitnessPal
+                    {/* PORQUE CALCULAR SUA TMB? */}
+                    <span className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-1"> Por que calcular sua TMB? </span>
+                    <p className="w-full h-auto mb-12">
+                        <ul className="list-disc pl-6">
+                            <li> Evita dietas aleatórias</li>
+                            <li> Ajuda a planejar sua alimentação</li>
+                            <li> Reduz erros comuns ao tentar emagrecer ou ganhar massa</li>
+                            <li> Promove saúde com responsabilidade</li>
+                        </ul>
+                    </p>
+
+
+                    {/* COMO CALCULAR COMIDA */}
+                    <span className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-1"> Como saber quanto estou comendo? </span>
+                    <p className="w-full h-auto mb-12">
+                        Existem aplicativos que facilitam o controle da alimentação diária. Com eles, você pode buscar alimentos, 
+                        escanear rótulos, salvar receitas e registrar tudo o que come ao longo do dia.
+                        <br/><br/>
+                        Entre os mais usados estão:
+                        <br/>
+                        <ul className="list-disc pl-6">
+                            <li>MyFitnessPal</li>
+                            <li>Yazio</li>
+                            <li>FatSecret</li>
+                            <li>HealthifyMe</li>
+                        </ul>
+                        <br/>
+                        Eles ajudam a montar um diário alimentar e a entender se você está comendo demais ou de menos para seu objetivo.
                     </p>
                 </article>
             </section>

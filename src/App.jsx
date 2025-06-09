@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/header'
+import Footer from './components/footer'
 import Page from './components/CalcTMB'
 import Home from './pages/home'
 import { Route, Routes } from 'react-router'
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/calculadora" element={<Page/>}/>
       </Routes>
+      <Footer/>
     </>
   )
 }
