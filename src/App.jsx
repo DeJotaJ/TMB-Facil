@@ -3,6 +3,8 @@ import Header from './components/header'
 import Footer from './components/footer'
 import Page from './components/CalcTMB'
 import Home from './pages/home'
+import Sobre from './pages/sobre'
+import PoliPriv from './pages/politicaPrivacidade'
 import { Route, Routes } from 'react-router'
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/calculadora" element={<Page/>}/>
+        <Route path="/sobre" element={<Sobre/>}/>
+        <Route path="/politicadeprivacidade" element={<PoliPriv/>}/>
       </Routes>
       <Footer/>
     </>
