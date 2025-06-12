@@ -103,7 +103,7 @@ export default function Home(){
                         <br/>
                         Conhecer e equilibrar esses nutrientes na alimentação é o que torna sua dieta mais eficaz.Com eles, é possível escanear alimentos, salvar receitas e montar seu próprio diário alimentar.
                         <br/><br/>
-                        <span href="/macronutrientes" title="Página em construção" className="font-semibold underline hover:cursor-pointer text-[#63b5c2]">Entenda os macronutrientes em detalhes</span>
+                        <a href="/macronutrientes" title="Página em construção" className="font-semibold underline hover:cursor-pointer text-[#63b5c2]">Entenda os macronutrientes em detalhes</a>
                     </p>
 
                     <span className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-1"> Como funciona o emagrecimento? </span>

@@ -43,7 +43,7 @@ export default function Header(){
                 flex flex-col gap-0 border-l-2 border-[#283B48]
                 transition-all duration-75
                 md:hidden
-                ${menuOpen ? 'translate-x-[0%]' : 'translate-x-[100%]'}
+                ${menuOpen ? 'translate-x-[0%]' : 'translate-x-[100%] hidden'}
             `}>
                 <span className='w-full px-4 py-0.5 border-b-2 border-[#D8D7BE]/20 text-[#D8D7BE]'>
                     <a href="/">
