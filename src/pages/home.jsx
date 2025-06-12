@@ -6,12 +6,12 @@ export default function Home(){
             <main className="relative w-full min-h-[50vh] md:min-h-[90vh] bg-[url('/prato01.jpg')]  md:bg-right bg-contain bg-top md:bg-contain  bg-no-repeat flex">
                 <div className="
                         w-full min-h-full py-4 md:p-0 md:m-0 bg-linear-to-t from-[#E5E5E5] from-45% to-transparent to-75%
-                        flex flex-col justify-end gap-4
-                        md:relative md:justify-center md:gap-8 md:bg-linear-to-r md:from-45%
+                        flex flex-col justify-end items-center gap-4
+                        md:relative md:justify-center md:items-start md:gap-8 md:bg-linear-to-r md:from-45%
                 ">
                     <span className=" 
-                        w-full px-4 text-3xl text-[#222831] font-bold
-                        md:w-1/2 md:pl-8 md:pr-24 md:text-5xl
+                        w-full px-4 text-2xl text-[#222831] font-semibold flex justify-center text-center
+                        md:w-1/2 md:pl-8 md:pr-24 md:text-5xl md:font-bold md:flex md:justify-start md:text-left
                     
                     ">
                         Alimentação inteligente e acessível.
@@ -20,7 +20,9 @@ export default function Home(){
                         href="/calculadora" 
                         className="md:w-1/2 h-fit py-4"
                     > 
-                        <span className="mx-8 px-4 py-2  border-transparent rounded-xl uppercase text-[#E5E5E5] font-semibold bg-[#222831]">
+                        <span className="mx-4 px-2 py-1 border-transparent rounded-xl uppercase text-[#E5E5E5] font-semibold bg-[#222831]
+                                         md:mx-8 md:px-4 md:py-2
+                        ">
                             Calcule sua TMB e comece agora!
                         </span>
                     </a>
@@ -101,7 +103,7 @@ export default function Home(){
                         <br/>
                         Conhecer e equilibrar esses nutrientes na alimentação é o que torna sua dieta mais eficaz.Com eles, é possível escanear alimentos, salvar receitas e montar seu próprio diário alimentar.
                         <br/><br/>
-                        <span href="/#" title="Página em construção" className="font-semibold underline hover:cursor-pointer text-[#63b5c2]">Entenda os macronutrientes em detalhes</span>
+                        <span href="/macronutrientes" title="Página em construção" className="font-semibold underline hover:cursor-pointer text-[#63b5c2]">Entenda os macronutrientes em detalhes</span>
                     </p>
 
                     <span className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-1"> Como funciona o emagrecimento? </span>

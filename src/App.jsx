@@ -5,6 +5,7 @@ import Page from './components/CalcTMB'
 import Home from './pages/home'
 import Sobre from './pages/sobre'
 import PoliPriv from './pages/politicaPrivacidade'
+import Macros from './pages/macronutrientes'
 import { Route, Routes } from 'react-router'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/calculadora" element={<Page/>}/>
         <Route path="/sobre" element={<Sobre/>}/>
         <Route path="/politicadeprivacidade" element={<PoliPriv/>}/>
+        <Route path="/macronutrientes" element={<Macros/>}/>
       </Routes>
       <Footer/>
     </>

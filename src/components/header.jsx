@@ -39,18 +39,18 @@ export default function Header(){
                 </span>
             </div>
             <nav className={`
-                absolute z-10 top-[5vh] right-0 w-1/2 min-h-[100dvh] bg-[#E5E5E5]
-                flex flex-col gap-0 border-l-2 border-[#C5C5C5]
+                absolute z-10 top-[4.8vh] right-0 w-1/2 min-h-[100vh] bg-[#4a5d6a]
+                flex flex-col gap-0 border-l-2 border-[#283B48]
                 transition-all duration-75
                 md:hidden
                 ${menuOpen ? 'translate-x-[0%]' : 'translate-x-[100%]'}
             `}>
-                <span className='w-full px-4 py-1 border-b-2 border-[#222831]/20 text-[#222831]'>
+                <span className='w-full px-4 py-0.5 border-b-2 border-[#D8D7BE]/20 text-[#D8D7BE]'>
                     <a href="/">
                         INÍCIO 
                     </a>
                 </span>
-                <span className='w-full px-4 py-1 border-b-2 border-[#222831]/20 text-[#222831]'>
+                <span className='w-full px-4 py-1 border-b-2 border-[#D8D7BE]/20 text-[#D8D7BE]'>
                     <a href="/calculadora">
                         CALCULADORA
                     </a>
@@ -62,7 +62,7 @@ export default function Header(){
                         absolute z-10 top-[5vh] left-0 w-1/2 min-h-[100dvh] bg-[#121212]
                         duration-75
                         md:hidden
-                        ${menuOpen ? 'opacity-50' : 'opacity-0'}
+                        ${menuOpen ? 'opacity-50' : 'opacity-0 hidden'}
                 `}
                 onClick={() => setMenuOpen(!menuOpen)}>
 
