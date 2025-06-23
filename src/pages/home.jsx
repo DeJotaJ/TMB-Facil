@@ -46,7 +46,7 @@ export default function Home(){
                         A nossa calculadora pode te ajudar a descobrir sua TMB e o seu gasto energético. Com esse número em mãos, você 
                         pode ajustar sua alimentação de forma mais estratégica.
                         <br/><br/>
-                        <a href="/calculadora" className="font-semibold underline text-[#00A6C0]">Clique aqui para calcular sua TMB</a>
+                        <a href="/calculadora" className="font-semibold underline text-[#85D7E4]">Clique aqui para calcular sua TMB</a>
                     </p>
                     {/* PORQUE CALCULAR SUA TMB? */}
                     <h2 className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-1"> Por que calcular sua TMB? </h2>
@@ -103,7 +103,7 @@ export default function Home(){
                         <br/>
                         Conhecer e equilibrar esses nutrientes na alimentação é o que torna sua dieta mais eficaz.Com eles, é possível escanear alimentos, salvar receitas e montar seu próprio diário alimentar.
                         <br/><br/>
-                        <a href="/macronutrientes" title="Página em construção" className="font-semibold underline hover:cursor-pointer text-[#63b5c2]">Entenda os macronutrientes em detalhes</a>
+                        <a href="/macronutrientes" title="Página em construção" className="font-semibold underline hover:cursor-pointer text-[#85D7E4]">Entenda os macronutrientes em detalhes</a>
                     </p>
 
                     <span className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-1"> Como funciona o emagrecimento? </span>
@@ -130,7 +130,7 @@ export default function Home(){
                         <br/>
                         Isso é chamado de <b>balanço calórico.</b>
                         <br/><br/>
-                        <span href="/#" title="Página em construção" className="font-semibold underline hover:cursor-pointer text-[#63b5c2]">Entenda mais sobre emagrecimento e ganho de massa</span>
+                        <span href="/#" title="Página em construção" className="font-semibold underline hover:cursor-pointer text-[#85D7E4]">Entenda mais sobre emagrecimento e ganho de massa</span>
                     </p>
 
                 </article>

@@ -12,7 +12,7 @@ export default function Header(){
     return(
         <>
             <div className="h-[5vh] md:h-[10vh] w-full px-4 md:px-20 flex justify-between items-center bg-[#222831] text-[#E5E5E5] md:font-semibold">
-                <span className="text-lg md:text-4xl text-[#00A6C0]">
+                <span className="text-lg md:text-4xl text-[#22C7D2]">
                     <a href="/">
                         TMB FÁCIL
                     </a>
