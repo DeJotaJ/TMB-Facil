@@ -30,11 +30,11 @@ export default function Home(){
             </main>
             <section className="relative w-full min-h-screen flex justify-center  bg-[#4A5D6A] text-white">
                 <article className="
-                        w-full  text-sm  flex flex-col items-center gap-2 py-4 px-8  bg-[#283B48]/40
+                        w-full  text-sm  flex flex-col items-center gap-2 py-1 px-1  bg-[#283B48]/40
                         md:w-2/3 md:text-base md:px-2 md:py-2
                 ">
                     {/* EXPLICAÇÃO TMB */}
-                    <div className="md:px-2 md:py-2 md:rounded-xl bg-[#283B48]">
+                    <div className="px-2 py-1 rounded-lg md:px-2 md:py-2 md:rounded-xl bg-[#283B48]">
                         <h2 className="text-2xl md:text-3xl text-center font-bold font-sans mb-4 md:mb-8"> O QUE É TMB?</h2>
                         <p className="w-full h-auto mb-12">
                             TMB é a Taxa Metabólica Basal. Ela representa a quantidade de energia que o corpo consome para manter suas 
@@ -51,7 +51,7 @@ export default function Home(){
                         </p>
                         {/* PORQUE CALCULAR SUA TMB? */}
                         <h2 className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-1"> Por que calcular sua TMB? </h2>
-                        <p className="w-full h-auto mb-12">
+                        <p className="w-full h-auto mb-4">
                             <ul className="list-disc pl-6">
                                 <li> Evita dietas aleatórias</li>
                                 <li> Ajuda a planejar sua alimentação</li>
@@ -62,9 +62,9 @@ export default function Home(){
                     </div>
                     
                     {/* COMO CALCULAR COMIDA */}
-                    <div className="md:px-2 md:py-2 md:rounded-xl bg-[#283B48]">
+                    <div className="px-2 py-1 rounded-lg md:px-2 md:py-2 md:rounded-xl bg-[#283B48]">
                         <span className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-1"> Como saber quanto estou comendo? </span>
-                        <p className="w-full h-auto mb-12">
+                        <p className="w-full h-auto mb-4">
                             Existem aplicativos que facilitam o controle da alimentação diária. Com eles, você pode buscar alimentos, 
                             escanear rótulos, salvar receitas e registrar tudo o que come ao longo do dia.
                             <br/><br/>
@@ -84,9 +84,9 @@ export default function Home(){
 
                     {/* MACRONUTRIENTES */}
 
-                    <div className="md:px-2 md:py-2 md:rounded-xl bg-[#283B48]">
+                    <div className="px-2 py-1 rounded-lg md:px-2 md:py-2 md:rounded-xl bg-[#283B48]">
                         <span className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-1"> O que são macronutrientes? </span>
-                        <p className="w-full h-auto mb-12">
+                        <p className="w-full h-auto mb-4">
                             Existem aplicativos que facilitam o controle da alimentação diária. Com eles, você pode buscar alimentos, 
                             escanear rótulos, salvar receitas e registrar tudo o que come ao longo do dia.
                             <br/><br/>
@@ -113,12 +113,12 @@ export default function Home(){
                         </p>
                     </div>
 
-                    <div className="flex flex-col gap-2 md:px-2 md:py-2 md:rounded-xl bg-[#283B48]">
+                    <div className="px-2 py-1 rounded-lg flex flex-col gap-2 md:px-2 md:py-2 md:rounded-xl bg-[#283B48]">
                         <span className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-1"> 
                             <span>Como funciona o emagrecimento?</span><br/>
                             <i className="w-full text-sm md:text-sm md:font-normal mb:0.5 md:mb-2"> Emagrecer é o processo de usar mais energia do que se consome. </i>
                         </span>
-                        <p className="w-full h-auto mb-12">
+                        <p className="w-full h-auto mb-4">
                             <p>
                                 Nosso corpo gasta energia o tempo todo: para respirar, pensar, andar, digerir alimentos, se movimentar e até dormir. Essa energia vem da comida que comemos — principalmente dos carboidratos, gorduras e proteínas.
                             </p>
