@@ -39,22 +39,26 @@ export default function Header(){
                 </span>
             </div>
             <nav className={`
-                absolute z-10 top-[4.8vh] right-0 w-1/2 min-h-[100vh] bg-[#4a5d6a]
-                flex flex-col gap-0 border-l-2 border-[#283B48]
+                absolute z-10 top-[4.8vh] right-0 w-1/2 min-h-[100vh] bg-[#283B48]
+                flex flex-col gap-0 border-l-2 border-[#222831]
                 transition-all duration-75
                 md:hidden
                 ${menuOpen ? 'translate-x-[0%]' : 'translate-x-[100%] hidden'}
             `}>
-                <span className='w-full px-4 py-0.5 border-b-2 border-[#D8D7BE]/20 text-[#D8D7BE]'>
+                <span className='w-full px-4 py-0.5 border-b-2 border-[#85D7E4]/50 text-[#85D7E4]'>
                     <a href="/">
                         INÍCIO 
                     </a>
                 </span>
-                <span className='w-full px-4 py-1 border-b-2 border-[#D8D7BE]/20 text-[#D8D7BE]'>
+                <span className='w-full px-4 py-1 border-b-2 border-[#85D7E4]/50 text-[#85D7E4]'>
                     <a href="/calculadora">
                         CALCULADORA
                     </a>
-                
+                </span>
+                <span className='w-full px-4 py-1 border-b-2 border-[#85D7E4]/50 text-[#85D7E4]'>
+                    <a href="/macronutrientes">
+                        MACRONUTRIENTES
+                    </a>
                 </span>
             </nav>
             <div 
