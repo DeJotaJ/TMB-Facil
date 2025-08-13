@@ -11,7 +11,7 @@ export default function Header(){
 
     return(
         <>
-            <div className="h-[5vh] md:h-[10vh] w-full px-4 md:px-20 flex justify-between items-center bg-[#222831] text-[#E5E5E5] md:font-semibold">
+            <div className="h-[5vh] md:h-[10vh] w-full px-4 md:px-20 flex justify-between items-center bg-[#00111A] text-[#E5E5E5] md:font-semibold">
                 <span className="text-lg md:text-4xl text-[#22C7D2]">
                     <a href="/" className="">
                         <img src="./LogoTMB.png" className="max-x-12 max-h-8 md:max-w-24 md:max-h-16" alt="Logomarca"/>
@@ -26,6 +26,11 @@ export default function Header(){
                     <span>
                         <a href="/calculadora">
                             CALCULADORA
+                        </a>
+                    </span>
+                    <span>
+                        <a href="">
+                            NUTRIENTES
                         </a>
                     </span>
                 </nav>

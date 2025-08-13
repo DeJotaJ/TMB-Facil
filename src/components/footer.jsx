@@ -1,8 +1,8 @@
 export default function Footer(){
     return(
         <>
-            <div className="min-h-[5vh] w-full px-4 py-2 gap-4 bottom-0 flex flex-col justify-between items-center text-sm  bg-[#222831] text-[#E5E5E5] 
-                            md:h-[10vh] md:px-20 md:relative md:flex-row md:justify-center md:gap-8 md:text-lg md:font-light           
+            <div className="min-h-[5vh] w-full px-4 py-2 gap-4 bottom-0 flex flex-col justify-between items-center text-sm  bg-[#00111A] text-[#E5E5E5] 
+                            lg:h-[10vh] lg:px-20 lg:relative lg:flex-row lg:justify-center lg:gap-8 lg:text-lg lg:font-light           
             ">
                 <span className="max-w-24 max-h-16 px-4 py-0 md:px-0 md:py-0 rounded-md md:rounded-2xl">
                     <a href="/" className="">

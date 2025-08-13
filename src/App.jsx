@@ -6,6 +6,7 @@ import Home from './pages/home'
 import Sobre from './pages/sobre'
 import PoliPriv from './pages/politicaPrivacidade'
 import Macros from './pages/macronutrientes'
+import Micros from './pages/micronutrientes'
 import { Route, Routes } from 'react-router'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/sobre" element={<Sobre/>}/>
         <Route path="/politicadeprivacidade" element={<PoliPriv/>}/>
         <Route path="/macronutrientes" element={<Macros/>}/>
+        <Route path="/micronutrientes" element={<Micros/>}/>
       </Routes>
       <Footer/>
     </>
