@@ -72,10 +72,10 @@ export default function Macronutrientes(){
 
                         </div>
                         <a href="/calculadora" title="Calculadora de Taxa Metabólica Basal(TMB)" className="my-8 text-lg font-semibold hover:font-bold hover:text-[#00A6C0] hover:cursor-pointer text-[#aef4ff]">Veja como calcular sua TMB (Taxa Metabólica Basal) </a>
-                        <p className="md:w-5/5 text-center bg-[#f8ff96] text-[#00111A] rounded-lg px-2 py-1 text-base font-normal uppercase">
+                        <p className="md:w-5/5 text-center bg-[#f2ff38] text-[#00111A] rounded-lg px-2 py-1 text-base font-sans uppercase">
                             Não existe dieta ideal sem equilíbrio! Cada pessoa tem uma necessidade diferente.
                             <br/> 
-                            <b>Consulte um nutricionista para ajustar sua alimentação.</b>
+                            <b className="font-bold">Consulte um nutricionista para ajustar sua alimentação.</b>
                         </p>
                         
                     </main>

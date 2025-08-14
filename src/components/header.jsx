@@ -62,7 +62,7 @@ export default function Header(){
                 </span>
                 <span className='w-full px-4 py-1 border-b-2 border-[#85D7E4]/50 text-[#85D7E4]'>
                     <a href="/macronutrientes">
-                        MACRONUTRIENTES
+                        NUTRIENTES
                     </a>
                 </span>
             </nav>

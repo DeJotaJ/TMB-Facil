@@ -90,10 +90,10 @@ export default function Macronutrientes(){
                             className="mt-8 mb-4 text-[0.9rem] md:text-lg font-semibold hover:font-bold hover:text-[#00A6C0] hover:cursor-pointer text-[#aef4ff]">
                                 Veja como calcular sua TMB (Taxa Metabólica Basal)
                         </a>
-                        <p className="md:w-5/5 text-center bg-[#f5ff63] text-[#002233] rounded-lg px-2 py-1 text-sm md:text-base font-normal uppercase">
+                        <p className="md:w-5/5 text-center bg-[#f2ff38] text-[#00111A] rounded-lg px-2 py-1 text-sm md:text-base font-sans uppercase">
                             Não existe dieta ideal sem equilíbrio! Cada pessoa tem uma necessidade diferente.
                             <br/> 
-                            <b>Consulte um nutricionista para ajustar sua alimentação.</b>
+                            <b className="font-bold">Consulte um nutricionista para ajustar sua alimentação.</b>
                         </p>
                         
                         
