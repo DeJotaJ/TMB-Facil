@@ -57,7 +57,7 @@ export default function Macronutrientes(){
                                 </p>
                             </div>
                         </div>
-                        <div className="py-4 flex flex-col items-center gap-4 md:text-lg lg:flex-row lg:gap-12 lg:px-4">
+                        <div className="py-4 flex flex-col items-center gap-4 text-base md:text-lg lg:flex-row lg:gap-12 lg:px-4">
                             <span className="flex flex-col gap-4 lg:gap-1">
                                 Quanto aos nutrientes essenciais, OMS e Opas recomendam a seguinte proporção de consumo, em uma dieta diária 
                                 de 2 mil calorias.

@@ -1,9 +1,9 @@
 export default function PoliticaPrivacidade(){
     return(
         <>
-            <section className="relative w-full md:min-h-[80dvh] flex justify-center  bg-[#4a5d6a] text-white">
+            <section className="relative w-full md:min-h-[80dvh] flex justify-center  bg-[#1B2C35] text-white">
                 <article className="
-                        w-full  text-sm  flex flex-col items-center gap-0 py-4 px-8  bg-[#283B48]
+                        w-full  text-sm  flex flex-col items-center gap-0 py-4 px-8  bg-[#002233]
                         md:w-2/3 md:text-base md:px-12 md:py-8
                 ">
                     <h2 className="text-3xl font-semibold my-4">Nossa Política de Privacidade</h2>
