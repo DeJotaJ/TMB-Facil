@@ -3,16 +3,21 @@ export default function Home(){
     return(
         <>
             {/* BANNER */}
-            <main className="relative w-full min-h-[50vh] md:min-h-[80vh] lg:min-h-[90vh] bg-[url('/prato01.jpg')]  lg:bg-right bg-contain bg-top lg:bg-contain bg-no-repeat flex">
+            <main className="relative w-full min-h-[40vh] sm:min-h-[50vh] bg-[url('/prato01.jpg')] bg-contain bg-top bg-no-repeat
+                            flex
+                            md:min-h-[80vh] 
+                            lg:min-h-[90vh] lg:bg-right  lg:bg-contain ">
                 <div className="
-                        w-full min-h-full py-8 bg-linear-to-t from-[#E5E5E5] from-45% to-transparent to-75%
+                        w-full min-h-full py-8 bg-linear-to-t from-[#E5E5E5] from-35% to-transparent to-75%
                         flex flex-col justify-end items-center gap-2
+                        max-[420px]:py-8 
                         md:py-16 md:gap-8 
-                        lg:p-0 lg:m-0 lg:justify-center lg:items-start lg:gap-12 lg:bg-linear-to-r lg:from-[#EEE] lg:from-45% lg:to-transparent lg:to-75%
+                        lg:p-0 lg:m-0 lg:justify-center lg:items-start lg:gap-12 lg:bg-linear-to-r lg:from-[#E6E6E6] lg:from-45% lg:to-transparent lg:to-50%
                         
                 ">
                     <span className=" 
                         w-full px-4 text-2xl text-[#00111A] font-semibold flex justify-center text-center
+                        max-[420px]:text-lg
                         lg:w-1/2 lg:pl-8 lg:pr-24 lg:text-5xl lg:font-bold lg:flex lg:justify-start lg:text-left
                     
                     ">
@@ -22,7 +27,10 @@ export default function Home(){
                         href="/calculadora" 
                         className="lg:w-fit h-fit py-1 px-4 md:px-4 lg:px-8"
                     > 
-                        <span className="mx-4 px-2 py-1 border-transparent rounded-xl uppercase text-[#E5E5E5] font-semibold bg-[#00111A]
+                        <span className="mx-4 px-2 py-0.5 border-transparent rounded-xl uppercase text-[#E5E5E5] font-semibold bg-[#00111A]
+                                         lg:hover:px-5 lg:hover:py-2.5 lg:hover:text-[16.5px]
+                                         shadow-[0_2px_8px] shadow-[#002233]
+                                         max-[420px]:text-sm
                                          md:px-4 md:py-2
                                          lg:mx-0 lg:px-4 lg:py-2
                         ">
@@ -56,7 +64,7 @@ export default function Home(){
                                 pode ajustar sua alimentação de forma mais estratégica.
                             </span>
                             
-                            <a href="/calculadora" className="font-semibold underline text-[#B2E6FF] hover:text-[#00AAFF]">Clique aqui para calcular sua TMB</a>
+                            <a href="/calculadora" className="w-fit px-2 py-0.5 font-semibold rounded-lg bg-[#B2E6FF] text-[#002233] hover:underline hover:text-[#00111A]">Clique aqui para calcular sua TMB</a>
                         </p>
                         {/* PORQUE CALCULAR SUA TMB? */}
                         <h2 className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-2"> Por que calcular sua TMB? </h2>
@@ -119,7 +127,7 @@ export default function Home(){
                                 </li>
                             </ul>
                             Conhecer e equilibrar esses nutrientes na alimentação é o que torna sua dieta mais eficaz.Com eles, é possível escanear alimentos, salvar receitas e montar seu próprio diário alimentar.
-                            <a href="/macronutrientes" title="Página em construção" className="font-semibold underline hover:cursor-pointer text-[#85D7E4] hover:text-[#00AAFF]">Entenda os macronutrientes em detalhes</a>
+                            <a href="/macronutrientes" title="Página em construção" className="w-fit px-2 py-0.5 font-semibold rounded-lg bg-[#B2E6FF] text-[#002233] hover:underline hover:text-[#00111A]">Entenda os macronutrientes em detalhes</a>
                         </p>
                     </div>
                     <div className="px-2 py-1 rounded-lg md:flex md:flex-col md:px-2 md:py-2 md:rounded-xl bg-[#002233]">
@@ -141,7 +149,7 @@ export default function Home(){
                                 É importante manter um equilíbrio na ingestão de micronutrientes, pois o consumo excessivo de alguns deles também pode ser 
                                 prejudicial à saúde.
                             </span>
-                            <a href="/micronutrientes" title="Micronutrientes" className="font-semibold underline hover:cursor-pointer text-[#B2E6FF] hover:text-[#00AAFF]">Entenda mais os micronutrientes</a>
+                            <a href="/micronutrientes" title="Micronutrientes" className="w-fit px-2 py-0.5 font-semibold rounded-lg bg-[#B2E6FF] text-[#002233] hover:underline hover:text-[#00111A]">Entenda mais os micronutrientes</a>
                         </p>
                     </div>
 
@@ -171,7 +179,7 @@ export default function Home(){
                             <br/>
                             Isso é chamado de <b>balanço calórico.</b>
                             <br/><br/>
-                            <span href="/#" title="Página em construção" className="font-semibold underline hover:cursor-pointer text-[#B2E6FF] hover:text-[#00AAFF]">Entenda mais sobre emagrecimento e ganho de massa</span>
+                            <span href="/#" title="Página em construção" className="w-fit px-2 py-0.5 font-semibold rounded-lg bg-[#B2E6FF] text-[#002233] hover:underline hover:text-[#00111A]">Entenda mais sobre emagrecimento e ganho de massa</span>
                         </p>
                     </div>
                 </article>

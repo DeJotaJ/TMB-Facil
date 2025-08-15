@@ -6,7 +6,7 @@ export default function Macronutrientes(){
                             w-full  text-sm  flex flex-col items-center gap-0 py-4 px-4  bg-[#002233]
                             md:w-3/4 lg:w-2/3 lg:text-base lg:px-12 lg:py-8 lg:justify-start lg:items-start
                     ">
-                        <h1 className="w-full text-2xl mt-2 md:text-center md:text-4xl font-black">Micronutrientes</h1>
+                        <h1 className="w-full text-3xl mt-2 text-center lg:text-4xl font-black">Micronutrientes</h1>
                         <h2 className="hidden lg:w-full lg:block lg:mb-2 lg:text-center lg:text-md font-light italic">
                             Nutrientes essenciais para o corpo humano manter o bom funcionamento do organismo
                         </h2>
@@ -87,7 +87,9 @@ export default function Macronutrientes(){
                         <a 
                             href="/calculadora" 
                             title="Calculadora de Taxa Metabólica Basal(TMB)" 
-                            className="mt-8 mb-4 text-[0.9rem] md:text-lg font-semibold hover:font-bold hover:text-[#00A6C0] hover:cursor-pointer text-[#aef4ff]">
+                            className="mt-8 mb-4 text-[0.9rem] font-semibold hover:font-bold hover:text-[#00A6C0] hover:cursor-pointer text-[#aef4ff]
+                                       md:text-lg md:text-shadow-md md:text-shadow-zinc-900
+                            ">
                                 Veja como calcular sua TMB (Taxa Metabólica Basal)
                         </a>
                         <p className="md:w-5/5 text-center bg-[#f2ff38] text-[#00111A] rounded-lg px-2 py-1 text-sm md:text-base font-sans uppercase">
