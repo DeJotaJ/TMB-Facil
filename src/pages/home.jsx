@@ -29,7 +29,7 @@ export default function Home(){
                     > 
                         <span className="mx-4 px-2 py-0.5 border-transparent rounded-xl uppercase text-[#E5E5E5] font-semibold bg-[#00111A]
                                          lg:hover:px-5 lg:hover:py-2.5 lg:hover:text-[16.5px]
-                                         shadow-[0_2px_8px] shadow-[#002233]
+                                         md:shadow-[0_2px_8px] md:shadow-[#002233]
                                          max-[420px]:text-sm
                                          md:px-4 md:py-2
                                          lg:mx-0 lg:px-4 lg:py-2
@@ -40,14 +40,14 @@ export default function Home(){
                 </div>
             </main>
             {/* BANNER */}
-            <section className="relative w-full min-h-screen flex justify-center  bg-[#1B2C35] text-white">
+            <section className="relative w-full min-h-screen flex justify-center  bg-[#0F171C] text-white">
                 <article className="
-                        w-full  text-sm  flex flex-col items-center gap-2 py-1 px-1  bg-[#183A4B]
+                        w-full  text-sm  flex flex-col items-center gap-2 py-1 px-1  bg-[#09151B]
                         md:w-3/4 md:text-base md:px-2 md:py-2
                         lg:w-2/3 lg:text-base lg:px-3 lg:py-3
                 ">
                     {/* EXPLICAÇÃO TMB */}
-                    <div className="px-2 py-1 rounded-lg md:px-2 md:py-2 md:rounded-xl bg-[#002233]">
+                    <div className="px-2 py-1 rounded-lg md:px-2 md:py-2 md:rounded-xl bg-[#00111A]">
                         <h2 className="text-2xl md:text-3xl text-center font-bold font-sans mb-4 md:mb-8"> O QUE É TMB?</h2>
                         <p className="w-full h-auto flex flex-col gap-4 mb-8 md:mb-4">
                             <span>
@@ -64,7 +64,7 @@ export default function Home(){
                                 pode ajustar sua alimentação de forma mais estratégica.
                             </span>
                             
-                            <a href="/calculadora" className="w-fit px-2 py-0.5 font-semibold rounded-lg bg-[#B2E6FF] text-[#002233] hover:underline hover:text-[#00111A]">Clique aqui para calcular sua TMB</a>
+                            <a href="/calculadora" className="w-fit px-2 py-0.5 font-semibold rounded-lg bg-[#B2E6FF] text-[#00111A] hover:underline hover:text-[#000108]">Clique aqui para calcular sua TMB</a>
                         </p>
                         {/* PORQUE CALCULAR SUA TMB? */}
                         <h2 className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-2"> Por que calcular sua TMB? </h2>
@@ -79,7 +79,7 @@ export default function Home(){
                     </div>
                     
                     {/* COMO CALCULAR COMIDA */}
-                    <div className="px-2 py-1 rounded-lg md:px-2 md:py-2 md:rounded-xl bg-[#002233]">
+                    <div className="px-2 py-1 rounded-lg md:px-2 md:py-2 md:rounded-xl bg-[#00111A]">
                         <span className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-1"> Como saber quanto estou comendo? </span>
                         <p className="w-full h-auto mb-4">
                             Existem aplicativos que facilitam o controle da alimentação diária. Com eles, você pode buscar alimentos, 
@@ -101,7 +101,7 @@ export default function Home(){
 
                     {/* MACRONUTRIENTES */}
 
-                    <div className="px-2 py-1 rounded-lg md:flex md:flex-col md:px-2 md:py-2 md:rounded-xl bg-[#002233]">
+                    <div className="px-2 py-1 rounded-lg md:flex md:flex-col md:px-2 md:py-2 md:rounded-xl bg-[#00111A]">
                         <span className="w-full text-xl md:text-2xl font-semibold font-sans mb-0.5 md:mb-2"> O que são macronutrientes? </span>
                         <p className="w-full h-auto mb-4 flex flex-col gap-4">
                             <span>
@@ -127,10 +127,17 @@ export default function Home(){
                                 </li>
                             </ul>
                             Conhecer e equilibrar esses nutrientes na alimentação é o que torna sua dieta mais eficaz.Com eles, é possível escanear alimentos, salvar receitas e montar seu próprio diário alimentar.
-                            <a href="/macronutrientes" title="Página em construção" className="w-fit px-2 py-0.5 font-semibold rounded-lg bg-[#B2E6FF] text-[#002233] hover:underline hover:text-[#00111A]">Entenda os macronutrientes em detalhes</a>
+                            <a 
+                                href="/macronutrientes" 
+                                title="Página em construção" 
+                                className="w-fit px-2 py-0.5 font-semibold rounded-lg bg-[#B2E6FF] text-[#00111A] hover:underline hover:text-[#000108]
+                                            max-[420px]:text-xs
+                            ">
+                                Entenda os macronutrientes em detalhes
+                            </a>
                         </p>
                     </div>
-                    <div className="px-2 py-1 rounded-lg md:flex md:flex-col md:px-2 md:py-2 md:rounded-xl bg-[#002233]">
+                    <div className="px-2 py-1 rounded-lg md:flex md:flex-col md:px-2 md:py-2 md:rounded-xl bg-[#00111A]">
                         <span className="w-full text-xl md:text-2xl font-semibold font-sans mb-0.5 md:mb-2"> O que são micronutrientes? </span>
                         <p className="w-full h-auto mb-4 flex flex-col gap-4">
                             <span>
@@ -149,11 +156,18 @@ export default function Home(){
                                 É importante manter um equilíbrio na ingestão de micronutrientes, pois o consumo excessivo de alguns deles também pode ser 
                                 prejudicial à saúde.
                             </span>
-                            <a href="/micronutrientes" title="Micronutrientes" className="w-fit px-2 py-0.5 font-semibold rounded-lg bg-[#B2E6FF] text-[#002233] hover:underline hover:text-[#00111A]">Entenda mais os micronutrientes</a>
+                            <a 
+                                href="/micronutrientes" 
+                                title="Micronutrientes" 
+                                className="w-fit px-2 py-0.5 font-semibold rounded-lg bg-[#B2E6FF] text-[#00111A] hover:underline hover:text-[#000108]
+                                            max-[420px]:text-xs
+                            ">
+                                Entenda mais os micronutrientes
+                            </a>
                         </p>
                     </div>
 
-                    <div className="px-2 py-1 rounded-lg flex flex-col gap-2 md:px-2 md:py-2 md:rounded-xl bg-[#002233]">
+                    <div className="px-2 py-1 rounded-lg flex flex-col gap-2 md:px-2 md:py-2 md:rounded-xl bg-[#00111A]">
                         <span className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-1"> 
                             <span>Como funciona o emagrecimento?</span><br/>
                             <i className="w-full text-sm md:text-sm md:font-normal mb:0.5 md:mb-2"> Emagrecer é o processo de usar mais energia do que se consome. </i>
@@ -179,7 +193,14 @@ export default function Home(){
                             <br/>
                             Isso é chamado de <b>balanço calórico.</b>
                             <br/><br/>
-                            <span href="/#" title="Página em construção" className="w-fit px-2 py-0.5 font-semibold rounded-lg bg-[#B2E6FF] text-[#002233] hover:underline hover:text-[#00111A]">Entenda mais sobre emagrecimento e ganho de massa</span>
+                            <span 
+                                href="/#" 
+                                title="Página em construção" 
+                                className="w-fit px-2 py-0.5 font-semibold rounded-lg bg-[#B2E6FF] text-[#00111A] hover:underline hover:text-[#000108]
+                                            max-[420px]:text-xs
+                            ">
+                                Entenda mais sobre emagrecimento e ganho de massa
+                            </span>
                         </p>
                     </div>
                 </article>

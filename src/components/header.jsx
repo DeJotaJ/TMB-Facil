@@ -11,7 +11,7 @@ export default function Header(){
 
     return(
         <>
-            <div className="h-[5vh] md:h-[10vh] w-full px-4 md:px-20 flex justify-between items-center bg-[#00111A] text-[#E5E5E5] md:font-semibold">
+            <div className="h-[5vh] md:h-[10vh] w-full px-4 md:px-20 flex justify-between items-center bg-[#000108] text-[#E5E5E5] md:font-semibold">
                 <span className="text-lg md:text-4xl text-[#22C7D2]">
                     <a href="/" className="">
                         <img src="./LogoTMB.png" className="max-x-12 max-h-8 md:max-w-24 md:max-h-16" alt="Logomarca"/>
@@ -44,8 +44,8 @@ export default function Header(){
                 </span>
             </div>
             <nav className={`
-                absolute z-10 top-[4.8vh] right-0 w-1/2 min-h-[100vh] bg-[#283B48]
-                flex flex-col gap-0 border-l-2 border-[#222831]
+                absolute z-10 top-[4.8vh] right-0 w-1/2 min-h-[100vh] bg-[#0F171C]
+                flex flex-col gap-0 border-l-2 border-[#09151B]
                 transition-all duration-75
                 md:hidden
                 ${menuOpen ? 'translate-x-[0%]' : 'translate-x-[100%] hidden'}
