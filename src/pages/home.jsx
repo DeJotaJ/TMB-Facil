@@ -3,9 +3,8 @@ export default function Home(){
     return(
         <>
             {/* BANNER */}
-            <main 
-                loading="lazy"
-                className="relative w-full min-h-[40vh] sm:min-h-[50vh] bg-[url('/prato01.jpg')] bg-contain bg-top bg-no-repeat
+            <main
+                className="relative w-full min-h-[40vh] sm:min-h-[50vh] bg-[url('/prato01.webp')] bg-contain bg-top bg-no-repeat
                             flex
                             md:min-h-[80vh] 
                             lg:min-h-[90vh] lg:bg-right  lg:bg-contain ">
