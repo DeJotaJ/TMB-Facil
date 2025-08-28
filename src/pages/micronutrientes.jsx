@@ -13,7 +13,7 @@ export default function Macronutrientes(){
                         <div class="my-8 md:my-12 text-justify leading-relaxed">
                             <img
                                 class="w-32 md:w-40 lg:w-64 h-auto lg:h-auto lg:mt-0 object-contain float-left mt-2 mr-4 rounded"
-                                src="./micronutrientes.png" alt="micronutrientes" loading="lazy"
+                                src="./micronutrientes.png" alt="micronutrientes"
                             />
                             <p className="md:text-base text-sm">
                                 Micronutrientes são nutrientes essenciais, como vitaminas e minerais, que o corpo necessita em quantidades muito 
