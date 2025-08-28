@@ -1,4 +1,5 @@
 import './App.css'
+import { Route, Routes } from 'react-router'
 import Header from './components/header'
 import Footer from './components/footer'
 import Page from './components/CalcTMB'
@@ -7,7 +8,7 @@ import Sobre from './pages/sobre'
 import PoliPriv from './pages/politicaPrivacidade'
 import Macros from './pages/macronutrientes'
 import Micros from './pages/micronutrientes'
-import { Route, Routes } from 'react-router'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/politicadeprivacidade" element={<PoliPriv/>}/>
         <Route path="/macronutrientes" element={<Macros/>}/>
         <Route path="/micronutrientes" element={<Micros/>}/>
+        <Analytics/>
       </Routes>
       <Footer/>
     </>
