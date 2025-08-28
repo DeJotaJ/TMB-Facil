@@ -22,8 +22,8 @@ function App() {
         <Route path="/politicadeprivacidade" element={<PoliPriv/>}/>
         <Route path="/macronutrientes" element={<Macros/>}/>
         <Route path="/micronutrientes" element={<Micros/>}/>
-        <Analytics/>
       </Routes>
+      <Analytics/>
       <Footer/>
     </>
   )
