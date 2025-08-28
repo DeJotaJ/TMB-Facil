@@ -14,7 +14,7 @@ export default function Header(){
             <div className="h-[5vh] md:h-[10vh] w-full px-4 md:px-20 flex justify-between items-center bg-[#000108] text-[#E5E5E5] md:font-semibold">
                 <span className="text-lg md:text-4xl text-[#22C7D2]">
                     <a href="/" className="">
-                        <img src="./LogoTMB.png" className="max-x-12 max-h-8 md:max-w-24 md:max-h-16" alt="Logomarca"/>
+                        <img src="./LogoTMB.png" className="max-x-12 max-h-8 md:max-w-24 md:max-h-16" alt="Logomarca" loading="lazy"/>
                     </a>
                 </span>
                 <nav className="md:flex gap-4 text-sm font-semibold md:text-xl md:gap-8 hidden">

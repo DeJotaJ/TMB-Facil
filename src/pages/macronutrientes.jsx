@@ -11,7 +11,7 @@ export default function Macronutrientes(){
                         <div class="my-8 text-justify leading-relaxed">
                             <img
                                 class="w-32 md:w-40 lg:w-64 h-auto md:h-auto lg:mt-4 object-contain float-left mt-2 mr-4 rounded"
-                                src="./macronutrientes.png" alt="macronutrientes"
+                                src="./macronutrientes.png" alt="macronutrientes" loading="lazy"
                             />
                             <p className="lg:py-8 lg:text-lg text-sm">
                                 Os macronutrientes são os grandes aliados do seu corpo. Presentes na maioria dos alimentos, eles garantem 
@@ -68,7 +68,12 @@ export default function Macronutrientes(){
                                 </ul>
                                 <p>Segue um gráfico representando uma dieta equilibrada. Lembrando que a porção de cada macronutriente varia de acordo com seus objetivos.</p>
                             </span>
-                            <img className="w-56 h-auto md:w-80 md:h-auto" src="./graficoMacros.png" alt="Gráfico de Macros" />
+                            <img 
+                                className="w-56 h-auto md:w-80 md:h-auto" 
+                                src="./graficoMacros.png" 
+                                alt="Gráfico de Macros" 
+                                loading="lazy"
+                            />
 
                         </div>
                         <a 

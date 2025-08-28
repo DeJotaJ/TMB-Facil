@@ -6,7 +6,7 @@ export default function Footer(){
             ">
                 <span className="max-w-24 max-h-16 px-4 py-0 md:px-0 md:py-0 rounded-md md:rounded-2xl">
                     <a href="/" className="">
-                        <img src="./LogoTMB.png" className="max-x-16 max-h-12 md:max-w-24 md:max-h-16" alt="Logomarca"/>
+                        <img src="./LogoTMB.png" className="max-x-16 max-h-12 md:max-w-24 md:max-h-16" alt="Logomarca" loading="lazy"/>
                     </a>
                 </span>
                 <nav className="w-2/2 flex flex-col gap-4 md:w-2/3 md:flex md:flex-col md:justify-around md:gap-1 md:items-center"> 
