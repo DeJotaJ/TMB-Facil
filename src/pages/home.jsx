@@ -4,12 +4,12 @@ export default function Home(){
         <>
             {/* BANNER */}
             <main
-                className="relative w-full min-h-[40vh] sm:min-h-[50vh] bg-[url('/prato01.jpg')] bg-contain bg-top bg-no-repeat
+                className="relative w-full min-h-[40vh] sm:min-h-[50vh] bg-[url('/prato01.webp')] bg-contain bg-top bg-no-repeat
                             flex
                             md:min-h-[80vh] 
                             lg:min-h-[90vh] lg:bg-right  lg:bg-contain">
                 <div className="
-                        w-full min-h-full py-8 bg-linear-to-t from-[#E7E7E7] from-35% to-transparent to-75%
+                        w-full min-h-full py-8 bg-linear-to-t from-[#D0D0D0] from-35% to-transparent to-75%
                         flex flex-col justify-end items-center gap-2
                         max-[420px]:py-8 
                         md:py-16 md:gap-8 

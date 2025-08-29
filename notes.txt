@@ -5,16 +5,11 @@ Paleta
     #85D7E4
     #D8D7CE
     #4A5D6A
-    
-Degrade
-#222831 --- #283B48
-#283B48 --- #00A6C0
-#00A6C0 --- #D8D7BE
-#D8D7BE --- #222831
 
-#121212
-#2c2c2c
-#75706f
-#acaba9
-#eaeaea
+    #121224
+    #00A6C0
+    #D0D0D0
+    #F0F0F0
+    #F7F7F7
+    #FFFFFF
 
