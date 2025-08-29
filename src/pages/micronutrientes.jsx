@@ -1,9 +1,9 @@
 export default function Macronutrientes(){
     return(
         <>
-            <div className="relative w-full min-h-[80dvh] flex justify-center  bg-[#1B2C35] text-white">
+            <div className="relative w-full min-h-[80dvh] flex justify-center  bg-[#E7E7E7] text-[#121224]">
                     <main className="
-                            w-full  text-sm  flex flex-col items-center gap-0 py-4 px-4  bg-[#002233]
+                            w-full  text-sm  flex flex-col items-center gap-0 py-4 px-4  bg-[#E0E0E0] md:shadow-[0_4px_8px] md:shadow-[#a0a0a0]
                             md:w-3/4 lg:w-2/3 lg:text-base lg:px-12 lg:py-8 lg:justify-start lg:items-start
                     ">
                         <h1 className="w-full text-3xl mt-2 text-center lg:text-4xl font-black">Micronutrientes</h1>
@@ -87,12 +87,11 @@ export default function Macronutrientes(){
                         <a 
                             href="/calculadora" 
                             title="Calculadora de Taxa Metabólica Basal(TMB)" 
-                            className="mt-8 mb-4 text-[0.9rem] font-semibold hover:font-bold hover:text-[#00A6C0] hover:cursor-pointer text-[#aef4ff]
-                                       md:text-lg md:text-shadow-md md:text-shadow-zinc-900
-                            ">
-                                Veja como calcular sua TMB (Taxa Metabólica Basal)
+                            className="my-8 text-lg font-medium hover:font-bold hover:underline hover:cursor-pointer text-[#121224] md:text-shadow-sm md:text-shadow-[#a0a0a0]
+                        ">
+                            Veja como calcular sua TMB (Taxa Metabólica Basal)
                         </a>
-                        <p className="md:w-5/5 text-center bg-[#f2ff38] text-[#00111A] rounded-lg px-2 py-1 text-sm md:text-base font-sans uppercase">
+                        <p className="md:w-5/5 text-center bg-[#121220] text-[#F0F0F0] rounded-lg px-2 py-1 text-base font-sans uppercase">
                             Não existe dieta ideal sem equilíbrio! Cada pessoa tem uma necessidade diferente.
                             <br/> 
                             <b className="font-bold">Consulte um nutricionista para ajustar sua alimentação.</b>

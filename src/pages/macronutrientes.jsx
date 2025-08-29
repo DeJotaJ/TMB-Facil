@@ -1,9 +1,9 @@
 export default function Macronutrientes(){
     return(
         <>
-            <div className="relative w-full min-h-[80dvh] flex justify-center  bg-[#1B2C35] text-white">
+            <div className="relative w-full min-h-[80dvh] flex justify-center  bg-[#E7E7E7] text-[#121224]">
                     <main className="
-                            w-full  text-sm  flex flex-col items-center gap-0 py-4 px-4  bg-[#002233]
+                            w-full  text-sm  flex flex-col items-center gap-0 py-4 px-4  bg-[#E0E0E0] md:shadow-[0_4px_8px] md:shadow-[#a0a0a0]
                             md:w-3/4 lg:w-2/3 lg:text-base lg:px-12 lg:py-8 lg:justify-start lg:items-start
                     ">
                         <h1 className="text-3xl mt-2 lg:text-4xl font-black">Macronutrientes</h1>
@@ -22,21 +22,21 @@ export default function Macronutrientes(){
                         {/* CARDS */}
                         <div className="w-full h-auto flex flex-col items-center gap-4 py-4 lg:flex-row lg:gap-8">
                             {/* CARD CARBOIDRATO */}
-                            <div className="border-2 border-[#00111A] w-12/12 h-auto rounded-lg">
-                                <h3 className="w-full p-0.5 bg-[#00111A] rounded-t-lg text-lg uppercase text-center"> 🍞 Carboidratos
+                            <div className="border-2 border-[#121224] w-12/12 h-auto rounded-lg">
+                                <h3 className="w-full p-0.5 bg-[#F0F0F0] rounded-t-lg text-lg uppercase text-center"> 🍞 Carboidratos
                                 <br/></h3>
-                                <h4 className="h-14 md:h-8 lg:h-16 px-1 py-1 bg-zinc-300 border-b-2 border-[#00111A] text-[#00111A] text-base "><b>Fontes:</b> arroz, massas, frutas, legumes</h4>
-                                <p className="min-h-28 md:min-h-[8rem] lg:min-h-[20rem] px-1 py-1 bg-zinc-300 text-[#00111A] rounded-b-lg text-base text-start">
+                                <h4 className="h-14 md:h-8 lg:h-16 px-1 py-1 bg-[#121224] border-b-2 border-[#F0F0F0] text-[#F0F0F0] text-base "><b>Fontes:</b> arroz, massas, frutas, legumes</h4>
+                                <p className="min-h-28 md:min-h-[8rem] lg:min-h-[20rem] px-1 py-1 bg-[#121224] text-[#F0F0F0] rounded-b-sm text-base text-start">
                                     A principal fonte de energia. Transformam-se em glicose para alimentar suas células. 
                                     Essenciais para o cérebro e músculos. Preferencialmente, os carboidratos devem vir de 
                                     alimentos ricos em fibras, minimamente processados, como grãos integrais, vegetais, frutas e leguminosas.
                                 </p>
                             </div>
                             {/* CARD PROTEÍNA */}
-                            <div className="border-2 border-[#00111A] w-12/12 h-auto rounded-lg">
-                                <h3 className="w-full p-0.5 bg-[#00111A] rounded-t-lg text-lg uppercase text-center"> 🍗 Proteínas <br /> </h3>
-                                <h4 className="h-14 md:h-8 lg:h-16 px-1 py-1 bg-zinc-300 border-b-2 border-[#00111A] text-[#00111A] text-base "><b>Fontes:</b> carnes, ovos, feijão, grão-de-bico</h4>
-                                <p className="min-h-28 md:min-h-[8rem] lg:min-h-[20rem] px-1 py-1 bg-zinc-300 text-[#00111A] rounded-b-lg text-base ">
+                            <div className="border-2 border-[#121224] w-12/12 h-auto rounded-lg">
+                                <h3 className="w-full p-0.5 bg-[#F0F0F0] rounded-t-lg text-lg uppercase text-center"> 🍗 Proteínas <br /> </h3>
+                                <h4 className="h-14 md:h-8 lg:h-16 px-1 py-1 bg-[#121224] border-b-2 border-[#F0F0F0] text-[#F0F0F0] text-base "><b>Fontes:</b> carnes, ovos, feijão, grão-de-bico</h4>
+                                <p className="min-h-28 md:min-h-[8rem] lg:min-h-[20rem] px-1 py-1 bg-[#121224] text-[#F0F0F0] rounded-b-sm text-base ">
                                     Estrutura e recuperação. Reparam tecidos, constroem músculos e produzem enzimas. Fundamentais para quem treina.
                                     <br/>
                                     Prefira a proteína vinda de Ovos, Carnes Magras(aves e peixes), Laticínios com baixo teor de gordura(Leite, iogurte natural, queijo cottage)
@@ -44,11 +44,11 @@ export default function Macronutrientes(){
                                 </p>
                             </div>
                             {/* CARD GORDURA */}
-                            <div className="border-2 border-[#00111A] w-12/12 h-auto rounded-lg">
-                                <h3 className="w-full p-0.5 bg-[#00111A] rounded-t-lg text-lg uppercase text-center"> 🥑 Gorduras
+                            <div className="border-2 border-[#121224] w-12/12 h-auto rounded-lg">
+                                <h3 className="w-full p-0.5 bg-[#F0F0F0] rounded-t-lg text-lg uppercase text-center"> 🥑 Gorduras
                                 <br/></h3>
-                                <h4 className="h-14 md:h-8 lg:h-16 px-1 py-1 bg-zinc-300 border-b-2 border-[#00111A] text-[#00111A] text-base "><b>Fontes:</b> azeite, abacate, nozes, peixes</h4>
-                                <p className="min-h-28 md:min-h-[8rem] lg:min-h-[20rem] px-1 py-1 bg-zinc-300 text-[#00111A] rounded-b-lg text-base ">
+                                <h4 className="h-14 md:h-8 lg:h-16 px-1 py-1 bg-[#121224] border-b-2 border-[#F0F0F0] text-[#F0F0F0] text-base "><b>Fontes:</b> azeite, abacate, nozes, peixes</h4>
+                                <p className="min-h-28 md:min-h-[8rem] lg:min-h-[20rem] px-1 py-1 bg-[#121224] text-[#F0F0F0] rounded-b-sm text-base ">
                                     Energia e proteção. Essenciais para absorver vitaminas, proteger órgãos e produzir hormônios.
                                     <br/>
                                     Gorduras não saturadas (presentes em peixes, abacate, nozes, óleos de girassol, soja e canola e azeite) 
@@ -74,11 +74,11 @@ export default function Macronutrientes(){
                         <a 
                             href="/calculadora" 
                             title="Calculadora de Taxa Metabólica Basal(TMB)" 
-                            className="my-8 text-lg font-semibold hover:font-bold hover:text-[#00A6C0] hover:cursor-pointer text-[#aef4ff] md:text-shadow-md md:text-shadow-zinc-900
+                            className="my-8 text-lg font-medium hover:font-bold hover:underline hover:cursor-pointer text-[#121224] md:text-shadow-sm md:text-shadow-[#a0a0a0]
                         ">
                             Veja como calcular sua TMB (Taxa Metabólica Basal)
                         </a>
-                        <p className="md:w-5/5 text-center bg-[#f2ff38] text-[#00111A] rounded-lg px-2 py-1 text-base font-sans uppercase">
+                        <p className="md:w-5/5 text-center bg-[#121220] text-[#F0F0F0] rounded-lg px-2 py-1 text-base font-sans uppercase">
                             Não existe dieta ideal sem equilíbrio! Cada pessoa tem uma necessidade diferente.
                             <br/> 
                             <b className="font-bold">Consulte um nutricionista para ajustar sua alimentação.</b>
