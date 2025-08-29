@@ -8,13 +8,22 @@ export default function Header(){
     const [menuOpen, setMenuOpen] = useState(false)
     console.log(menuOpen)
 
+    const mobile = window.innerWidth
+    let logo
+
+    if(mobile <= "640"){
+        logo = "./LogoTMBmobile.png"
+    }else{
+        logo = "./LogoTMB02.png"
+    }
+
 
     return(
         <>
             <div className="h-[5vh] md:h-[10vh] w-full px-4 md:px-20 flex justify-between items-center bg-[#060612] text-[#F0F0F0] md:font-semibold">
                 <span className="text-lg md:text-4xl text-[#22C7D2]">
                     <a href="/" className="">
-                        <img src="./LogoTMB02.png" className="max-x-12 max-h-8 md:max-w-24 md:max-h-16" alt="Logomarca"/>
+                        <img src={logo} className="max-x-12 max-h-8 md:max-w-24 md:max-h-16" alt="Logomarca"/>
                     </a>
                 </span>
                 <nav className="h-max md:flex gap-4 text-sm font-semibold md:text-xl md:gap-8 hidden">
