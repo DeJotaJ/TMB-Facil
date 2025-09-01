@@ -59,7 +59,8 @@ export default function Home(){
                         </div>
                         {/* FUNDAMENTOS DA NUTRIÇÃO */}
                         <div className="flex flex-col">
-                            <h2 className="text-lg md:text-2xl font-bold">Fundamentos da Nutrição<span className="hidden md:block">: o que você realmente precisa saber para se alimentar melhor</span></h2>
+                            <h2 className="hidden md:block text-lg md:text-2xl font-bold">Fundamentos da Nutrição: o que você realmente precisa saber para se alimentar melhor</h2>
+                            <h2 className="md:hidden text-lg md:text-2xl font-bold">Fundamentos da Nutrição<span className="hidden md:block">: o que você realmente precisa saber para se alimentar melhor</span></h2>
                             <span className="text-base">
                                 A base de uma vida saudável começa com entender como os alimentos funcionam no seu corpo.
                             </span>
