@@ -59,8 +59,8 @@ export default function Home(){
                         </div>
                         {/* FUNDAMENTOS DA NUTRIÇÃO */}
                         <div className="flex flex-col">
-                            <h2 className="hidden md:block text-lg md:text-2xl font-bold">Fundamentos da Nutrição: o que você realmente precisa saber para se alimentar melhor</h2>
-                            <h2 className="md:hidden text-lg md:text-2xl font-bold">Fundamentos da Nutrição<span className="hidden md:block">: o que você realmente precisa saber para se alimentar melhor</span></h2>
+                            <h2 className="hidden md:block text-lg md:text-xl font-semibold">Fundamentos da Nutrição: o que você realmente precisa saber para se alimentar melhor</h2>
+                            <h2 className="md:hidden text-lg md:text-2xl font-semibold">Fundamentos da Nutrição<span className="hidden md:block">: o que você realmente precisa saber para se alimentar melhor</span></h2>
                             <span className="text-base">
                                 A base de uma vida saudável começa com entender como os alimentos funcionam no seu corpo.
                             </span>
@@ -107,7 +107,7 @@ export default function Home(){
                             </div>
                             <div className="flex flex-col mt-2 md:m-0 gap-3 lg:gap-2">
                                 <span className="text-base font-medium md:font-semibold">Quer entender de forma simples e prática como aplicar tudo isso no seu dia a dia?</span>
-                                <span className="w-fit rounded-lg bg-[#121224] px-2 py-1 text-[#e7e7e7]">
+                                <span className="w-fit rounded-lg bg-[#121224] px-2 py-1 text-base text-[#e7e7e7]">
                                     Descubra os Fundamentos da Nutrição →
                                 </span>
                             </div>
@@ -132,18 +132,16 @@ export default function Home(){
                                 pode ajustar sua alimentação de forma mais estratégica.
                             </span>
                             
-                            <a href="/calculadora" className="w-fit px-2 py-0.5 font-semibold rounded-lg bg-[#00A6C0] text-[#00111A] hover:underline hover:text-[#000108]">Clique aqui para calcular sua TMB</a>
+                            <a href="/calculadora" className="w-fit px-2 py-0.5 text-base font-semibold rounded-lg bg-[#00A6C0] text-[#00111A] hover:underline hover:text-[#000108]">Clique aqui para calcular sua TMB</a>
                         </p>
                         {/* PORQUE CALCULAR SUA TMB? */}
-                        <h2 className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-2"> Por que calcular sua TMB? </h2>
-                        <p className="w-full h-auto mb-4">
-                            <ul className="list-disc list-inside pl-2 flex flex-col gap-1 md:gap-1">
+                        <h2 className="w-full text-xl md:text-2xl font-semibold"> Por que calcular sua TMB? </h2>
+                            <ul className="mb-4 md:mb-0 list-disc list-inside pl-2 flex flex-col gap-1 md:gap-1">
                                 <li> Evita dietas aleatórias</li>
                                 <li> Ajuda a planejar sua alimentação</li>
                                 <li> Reduz erros comuns ao tentar emagrecer ou ganhar massa</li>
                                 <li> Promove saúde com responsabilidade</li>
                             </ul>
-                        </p>
                         <span className="w-full text-xl md:text-2xl font-semibold font-sans mb:2 md:mb-1"> Como saber quanto estou comendo? </span>
                         <p className="w-full h-auto mb-4">
                             Existem aplicativos que facilitam o controle da alimentação diária. Com eles, você pode buscar alimentos, 
@@ -165,14 +163,15 @@ export default function Home(){
                     {/* 3 PILARES DA ALIMENTAÇÃO */}
                     <div className="px-2 pt-1 pb-2 flex flex-col gap-3 rounded-lg  md:px-4 md:py-2 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
                         <div className="flex flex-col">
-                            <h2 className="text-lg md:text-2xl font-bold">Os 3 pilares da sua alimentação<span className="hidden md:block">: Proteínas, Carboidratos e Gorduras</span></h2>
+                            <h2 className="hidden md:block text-lg md:text-2xl font-semibold">Os 3 pilares da sua alimentação: Proteínas, Carboidratos e Gorduras</h2>
+                            <h2 className="md:hidden text-lg md:text-2xl font-semibold">Os 3 pilares da sua alimentação<span className="hidden md:block">: Proteínas, Carboidratos e Gorduras</span></h2>
                             <span className="text-base hidden md:block">
                                 Eles não são vilões — são o combustível que mantém seu corpo funcionando todos os dias. Descubra como 
                                 cada um impacta sua energia, saúde e resultados.
                             </span>
                         </div>
                         <div className="">
-                            <span className="text-base font-semibold">
+                            <span className="text-base font-medium md:font-semibold">
                                 ⚡ Carboidratos:A fonte de energia preferida do organismo.
                             </span>
                             <ul className="ml-4">
@@ -182,7 +181,7 @@ export default function Home(){
                             </ul>
                         </div>
                         <div className="">
-                            <span className="text-base font-semibold">
+                            <span className="text-base font-medium md:font-semibold">
                                 💪 Proteínas:O tijolo da construção do corpo.
                             </span>
                             <ul className="ml-4">
@@ -192,7 +191,7 @@ export default function Home(){
                             </ul>
                         </div>
                         <div className="">
-                            <span className="text-base font-semibold">
+                            <span className="text-base font-medium md:font-semibold">
                                 🥑 Gorduras boas:Muito mais do que calorias extras.
                             </span>
                             <ul className="ml-4">
@@ -203,71 +202,13 @@ export default function Home(){
                         </div>
                         <div className="flex flex-col mt-2 md:m-0 gap-3 lg:gap-2">
                             <span className="text-base font-normal md:font-semibold">Quer entender como equilibrar cada macronutriente na sua dieta e usá-los a seu favor?</span>
-                            <span className="w-fit rounded-lg bg-[#121224] px-2 py-1 text-[#e7e7e7]">
+                            <span className="w-fit rounded-lg text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
                                 <a href="/macronutrientes" title="Página em construção">Descubra mais aqui</a>
                             </span>
                         </div>
                     </div>
 
-                    {/* COMO CALCULAR COMIDA */}
-                    <div className="hidden px-2 pt-1 pb-2 rounded-lg  md:px-2 md:py-2 md:rounded-xl bg-[#E0E0E0]">
-                        <span className="w-full text-xl md:text-2xl font-semibold font-sans mb:2 md:mb-1"> Como saber quanto estou comendo? </span>
-                        <p className="w-full h-auto mb-4">
-                            Existem aplicativos que facilitam o controle da alimentação diária. Com eles, você pode buscar alimentos, 
-                            escanear rótulos, salvar receitas e registrar tudo o que come ao longo do dia.
-                            <br/><br/>
-                            Entre os mais usados estão:
-                            <br/>
-                            <ul className="list-disc list-inside pl-2 flex flex-col gap-0.5 md:gap-1">
-                                <li>MyFitnessPal</li>
-                                <li>Yazio</li>
-                                <li>FatSecret</li>
-                                <li>HealthifyMe</li>
-                            </ul>
-                            <br/>
-                            Com eles, é possível escanear alimentos, salvar receitas e montar seu próprio diário alimentar.
-                        </p>
-                    </div>
-
-
-                    {/* MACRONUTRIENTES */}
-
-                    <div className="hidden px-2 py-1 rounded-lg md:flex md:flex-col md:px-2 md:py-2 md:rounded-xl bg-[#E0E0E0]">
-                        <span className="w-full text-xl md:text-2xl font-semibold font-sans mb-0.5 md:mb-2"> O que são macronutrientes? </span>
-                        <p className="w-full h-auto mb-4 flex flex-col gap-4">
-                            <span>
-                                Existem aplicativos que facilitam o controle da alimentação diária. Com eles, você pode buscar alimentos, 
-                                escanear rótulos, salvar receitas e registrar tudo o que come ao longo do dia.
-                            </span>
-                            <span>
-                                Nosso corpo precisa de três grupos principais de nutrientes para funcionar bem:
-                            </span>
-                            
-                            <ul className="pl-2 list-inside flex flex-col gap-2 md:gap-1">
-                                <li>
-                                    🍞 &nbsp;
-                                    <b>Carboidratos:</b> Fonte principal de energia
-                                </li>
-                                <li>
-                                    🍖 &nbsp;
-                                    <b>Proteínas:</b> Constróem e reparam músculos e tecidos
-                                </li>
-                                <li>
-                                    🥑 &nbsp;
-                                    <b>Gorduras boas:</b> Essenciais para hormônios e absorção de vitaminas
-                                </li>
-                            </ul>
-                            Conhecer e equilibrar esses nutrientes na alimentação é o que torna sua dieta mais eficaz.Com eles, é possível escanear alimentos, salvar receitas e montar seu próprio diário alimentar.
-                            <a 
-                                href="/macronutrientes" 
-                                title="Página em construção" 
-                                className="w-fit px-2 py-0.5 rounded-lg font-medium bg-[#121224] text-[#E0E0E0] hover:underline hover:text-[#FFFFFF] hover:font-bold
-                                            max-[420px]:text-xs
-                            ">
-                                Entenda os macronutrientes em detalhes
-                            </a>
-                        </p>
-                    </div>
+                    {/* MICRONUTRIENTES */}
                     <div className="px-2 py-1 rounded-lg md:flex md:flex-col md:px-2 md:py-2 md:rounded-xl bg-[#E0E0E0]">
                         <span className="w-full text-xl md:text-2xl font-semibold font-sans mb-0.5 md:mb-2"> O que são micronutrientes? </span>
                         <p className="w-full h-auto mb-4 flex flex-col gap-4">
@@ -291,13 +232,14 @@ export default function Home(){
                                 href="/micronutrientes" 
                                 title="Micronutrientes" 
                                 className="w-fit px-2 py-0.5 rounded-lg font-medium bg-[#121224] text-[#E0E0E0] hover:underline hover:text-[#FFFFFF] hover:font-bold
-                                            max-[420px]:text-xs
+                                            max-[420px]:text-base
                             ">
                                 Entenda mais os micronutrientes
                             </a>
                         </p>
                     </div>
 
+                    {/* EMAGRECIMENTO */}
                     <div className="px-2 py-1 rounded-lg flex flex-col gap-2 md:px-2 md:py-2 md:rounded-xl bg-[#E0E0E0]">
                         <span className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-1"> 
                             <span>Como funciona o emagrecimento?</span><br/>
@@ -327,10 +269,10 @@ export default function Home(){
                             <span 
                                 href="/#" 
                                 title="Página em construção" 
-                                className="w-fit px-2 py-0.5 rounded-lg font-medium bg-[#121224] text-[#E0E0E0] hover:underline hover:text-[#FFFFFF] hover:font-bold
-                                            max-[420px]:text-xs
+                                className="w-fit px-2 py-1 md:py-0.5 rounded-lg font-medium bg-[#323248] text-[#C0C0C0]
+                                            max-[420px]:text-base
                             ">
-                                Entenda mais sobre emagrecimento e ganho de massa
+                                Saiba sobre emagrecimento e ganho de massa
                             </span>
                         </p>
                     </div>
