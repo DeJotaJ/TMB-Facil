@@ -93,7 +93,7 @@ export default function CalculadoraTMB() {
   }
 
   return (
-    <div className="container flex flex-col justify-center items-center mx-auto py-10 px-4">
+    <div className="bg-[#121224] flex flex-col justify-center items-center mx-auto py-10 px-4">
       <div className="w-full md:w-2/5 bg-[#E5E5E5] mb-2 px-2 py-2  md:mb-5 md:px-5 md:py-5 rounded-lg md:rounded-2xl text-sm font-semibold uppercase text-[#222831]">
         <p>
           Nota: Estes cálculos são estimativas. Consulte um nutricionista ou profissional de saúde para
@@ -240,13 +240,13 @@ export default function CalculadoraTMB() {
           </div>
         </div>
         {/* ANUNCIOS MOBILE*/}
-        <div className="md:hidden bg-zinc-100/25 max-h-[15vh] min-h-[10vh] flex items-center justify-center rounded-lg"> 
+        <div className="bg-zinc-100/5 w-full min-h-[250px] flex items-center justify-center rounded-lg"> 
           <AdComponent/>
         </div>
         {/* ANUNCIOS MOBILE*/}
         {/* ANUNCIOS DESKTOP*/}
-        <div className="hidden md:flex md:absolute right-5 top-20 w-60 h-3/3 bg-zinc-100/0 rounded-lg shadow-none justify-center items-center">
-          <AdComponent/>
+        <div className="hidden md:hidden md:absolute right-5 top-20 w-60 h-3/3 bg-zinc-100/5 rounded-lg shadow-none justify-center items-center">
+          {/* Componente do anuncio */}
         </div>
         {/* ANUNCIO DESKTOP*/}
         {/* Card de Resultados */}
