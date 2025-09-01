@@ -15,7 +15,7 @@ const AdComponent = () => {
 
   return (
     // <!-- First Anuncios mobile -->
-    <ins className="adsbygoogle"
+    <ins className="adsbygoogle absolute"
         style={{ display: "block", width: "100%", minHeight: "250px" }}
         data-ad-client="ca-pub-9635044097775147"
         data-ad-slot="8088423058"
