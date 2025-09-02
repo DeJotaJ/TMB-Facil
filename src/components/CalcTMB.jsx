@@ -240,15 +240,10 @@ export default function CalculadoraTMB() {
           </div>
         </div>
         {/* ANUNCIOS MOBILE*/}
-        {/* <div className="hidden bg-zinc-100/50 w-full min-h-[250px] rounded-lg"> 
-          <AdComponent/>
-        </div> */}
+          <div className=" border border-zinc-100/50 w-full min-h-[250px] rounded-lg"> 
+            <AdComponent/>
+          </div>
         {/* ANUNCIOS MOBILE*/}
-        {/* ANUNCIOS DESKTOP*/}
-        {/* <div className="hidden md:hidden md:absolute right-5 top-20 w-60 h-3/3 bg-zinc-100/5 rounded-lg shadow-none justify-center items-center">
-          {/* Componente do anuncio */}
-        {/* </div> */}
-        {/* ANUNCIO DESKTOP*/}
         {/* Card de Resultados */}
         <div className="bg-[#E5E5E5] rounded-lg shadow-md overflow-hidden">
           <div className="p-6 border-b">

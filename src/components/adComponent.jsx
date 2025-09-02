@@ -8,19 +8,23 @@ const AdComponent = () => {
       } catch (e) {
         console.error("Adsense error", e);
       }
-    }, 300); // espera 300ms para garantir que o elemento já está no DOM
+    }, 300);
 
     return () => clearTimeout(timeout);
   }, []);
 
   return (
-    // <!-- First Anuncios mobile -->
-    <ins className="adsbygoogle absolute"
-        style={{ display: "block", width: "100%", minHeight: "250px" }}
+    <>
+      {/* Primeiro anúncio mobile */}
+      <ins
+        className="adsbygoogle"
+        style={{ display: "block", minHeight: "250px" }}
         data-ad-client="ca-pub-9635044097775147"
         data-ad-slot="8088423058"
         data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
+        data-full-width-responsive="true"
+      ></ins>
+    </>
   );
 };
 
