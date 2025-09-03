@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { useForm } from "react-hook-form"
-import AdComponent from "./adComponentMobile";
+import AdComponentMobile from "./adComponentMobile";
 
 export default function CalculadoraTMB() {
   const [resultados, setResultados] = useState(null)
