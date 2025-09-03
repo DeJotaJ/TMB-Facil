@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { useForm } from "react-hook-form"
-import AdComponent from "./adComponent";
+import AdComponent from "./adComponentMobile";
 
 export default function CalculadoraTMB() {
   const [resultados, setResultados] = useState(null)
@@ -100,7 +100,7 @@ export default function CalculadoraTMB() {
           recomendações personalizadas.
         </p>
       </div>
-      <div className="w-full md:w-2/5 grid grid-cols-1 md:grid-cols-1 gap-8 ">
+      <div className="w-full md:w-2/5 grid grid-cols-1 md:grid-cols-1 gap-2 ">
         {/* Card de Formulário */}
         <div className="bg-[#E5E5E5] rounded-lg shadow-md overflow-hidden">
           <div className="p-6 border-b">
@@ -240,8 +240,8 @@ export default function CalculadoraTMB() {
           </div>
         </div>
         {/* ANUNCIOS MOBILE*/}
-          <div className=" border border-zinc-100/50 w-full min-h-[250px] rounded-lg"> 
-            <AdComponent/>
+          <div className=" border border-zinc-100/50 w-full max-h-[50px] rounded-lg"> 
+            <AdComponentMobile/>
           </div>
         {/* ANUNCIOS MOBILE*/}
         {/* Card de Resultados */}

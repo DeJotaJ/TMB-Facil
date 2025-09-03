@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const AdComponent = () => {
+const AdComponentMobile = () => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       try {
@@ -18,7 +18,7 @@ const AdComponent = () => {
       {/* Primeiro anúncio mobile */}
       <ins
         className="adsbygoogle"
-        style={{ display: "block", minHeight: "250px" }}
+        style={{ display: "block", height: "50px" }}
         data-ad-client="ca-pub-9635044097775147"
         data-ad-slot="8088423058"
         data-ad-format="auto"
@@ -28,4 +28,4 @@ const AdComponent = () => {
   );
 };
 
-export default AdComponent;
+export default AdComponentMobile;

@@ -1,3 +1,4 @@
+import AdComponent from "../components/adComponentMobile";
 
 export default function Home(){
     return(
@@ -42,10 +43,15 @@ export default function Home(){
             </main>
             {/* BANNER */}
             <section className="relative w-full min-h-screen flex justify-center  bg-[#E7E7E7] text-[#121224]">
+                {/* ANUNCIOS*/}
+                    <div className="w-1/6 max-h-full border-2 border-blue-600/0 py-4 px-2 flex flex-wrap items-start justify-center rounded-lg"> 
+                        <AdComponentMobile/>
+                    </div>
+                {/* ANUNCIOS*/}
                 <article className="
                         w-full  text-sm  flex flex-col items-center gap-2 py-1 px-1 bg-[#D0D0D0] md:bg-[#D0D0D0]
                         md:w-3/4 md:text-base md:px-2 md:py-2
-                        lg:w-2/3 lg:text-base lg:px-3 lg:py-3
+                        lg:w-4/6 lg:text-base lg:px-3 lg:py-3
                 ">
                     
                     <div className="px-2 pt-4 pb-2 rounded-lg flex flex-col gap-3 md:px-4 md:pt-2 md:pb-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
@@ -277,6 +283,11 @@ export default function Home(){
                         </p>
                     </div>
                 </article>
+                {/* ANUNCIOS*/}
+                    <div className="w-1/6 max-h-full border-2 border-blue-600/0 py-4 px-2 flex flex-wrap items-start justify-center rounded-lg"> 
+                        <AdComponentMobile/>
+                    </div>
+                {/* ANUNCIOS*/}
             </section>
         </>
     )
