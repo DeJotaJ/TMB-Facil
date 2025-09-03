@@ -1,4 +1,4 @@
-import AdComponent from "../components/adComponentMobile";
+import AdComponentMobile from "../components/adComponentMobile";
 
 export default function Home(){
     return(
