@@ -42,19 +42,19 @@ export default function Home(){
                 </div>
             </main>
             {/* BANNER */}
-            <section className="relative w-full min-h-screen flex justify-center  bg-[#E7E7E7] text-[#121224]">
+            <div className="relative w-full min-h-screen flex justify-center  bg-[#E7E7E7] text-[#121224]">
                 {/* ANUNCIOS*/}
-                    <div className="w-1/6 max-h-full border-2 border-blue-600/0 py-4 px-2 flex flex-wrap items-start justify-center rounded-lg"> 
+                    <div className="hidden lg:w-1/6 max-h-full border-2 border-blue-600/0 py-4 px-2 md:flex flex-wrap items-start justify-center rounded-lg"> 
                         <AdComponentMobile/>
                     </div>
                 {/* ANUNCIOS*/}
                 <article className="
                         w-full  text-sm  flex flex-col items-center gap-2 py-1 px-1 bg-[#D0D0D0] md:bg-[#D0D0D0]
-                        md:w-3/4 md:text-base md:px-2 md:py-2
+                        md:w-3/4 md:text-base md:px-2 md:py-2 md:gap-4
                         lg:w-4/6 lg:text-base lg:px-3 lg:py-3
                 ">
                     
-                    <div className="px-2 pt-4 pb-2 rounded-lg flex flex-col gap-3 md:px-4 md:pt-2 md:pb-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
+                    <section className="px-2 pt-4 pb-2 rounded-lg flex flex-col gap-3 md:px-4 md:pt-2 md:pb-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
                         {/* NUTRIÇÃO */}
                         <div className="flex flex-col">
                             <h2 className="text-2xl md:text-3xl font-bold">NUTRIÇÃO</h2>
@@ -118,10 +118,10 @@ export default function Home(){
                                 </span>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
                     {/* EXPLICAÇÃO TMB */}
-                    <div className="px-2 pt-1 pb-2 rounded-lg  md:px-4 md:py-2 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
+                    <section className="px-2 pt-2 pb-2 rounded-lg  md:px-4 md:py-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
                         <h2 className="text-2xl md:text-3xl text-center font-bold font-sans mb-4 md:mb-8"> O QUE É TMB?</h2>
                         <p className="w-full h-auto flex flex-col gap-4 mb-8 md:mb-4">
                             <span>
@@ -164,10 +164,10 @@ export default function Home(){
                             <br/>
                             Com eles, é possível escanear alimentos, salvar receitas e montar seu próprio diário alimentar.
                         </p>
-                    </div>
+                    </section>
 
                     {/* 3 PILARES DA ALIMENTAÇÃO */}
-                    <div className="px-2 pt-1 pb-2 flex flex-col gap-3 rounded-lg  md:px-4 md:py-2 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
+                    <section className="px-2 pt-2 pb-2 flex flex-col gap-3 rounded-lg  md:px-4 md:py-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
                         <div className="flex flex-col">
                             <h2 className="hidden md:block text-lg md:text-2xl font-semibold">Os 3 pilares da sua alimentação: Proteínas, Carboidratos e Gorduras</h2>
                             <h2 className="md:hidden text-lg md:text-2xl font-semibold">Os 3 pilares da sua alimentação<span className="hidden md:block">: Proteínas, Carboidratos e Gorduras</span></h2>
@@ -212,41 +212,95 @@ export default function Home(){
                                 <a href="/macronutrientes" title="Página em construção">Descubra mais aqui</a>
                             </span>
                         </div>
-                    </div>
+                    </section>
 
                     {/* MICRONUTRIENTES */}
-                    <div className="px-2 py-1 rounded-lg md:flex md:flex-col md:px-2 md:py-2 md:rounded-xl bg-[#E0E0E0]">
-                        <span className="w-full text-xl md:text-2xl font-semibold font-sans mb-0.5 md:mb-2"> O que são micronutrientes? </span>
-                        <p className="w-full h-auto mb-4 flex flex-col gap-4">
-                            <span>
-                                Micronutrientes são nutrientes essenciais, como vitaminas e minerais, que o corpo necessita em quantidades muito pequenas
+                    <section className="px-2 pt-2 pb-2 flex flex-col gap-3 rounded-lg  md:px-4 md:py-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
+                        <div className="flex flex-col">
+                            <h2 className="hidden md:block text-lg md:text-2xl font-semibold">Micronutrientes: os pequenos heróis da sua saúde</h2>
+                            <h2 className="md:hidden text-lg md:text-2xl font-semibold">Micronutrientes: os pequenos heróis da sua saúde<span className="hidden md:block">Vitaminas e minerais que fazem toda a diferença no seu corpo — mesmo em quantidades minúsculas.</span></h2>
+                            <span className="text-base hidden md:block">
+                                Apesar de precisarmos deles em pequenas quantidades, os micronutrientes são fundamentais para manter energia, 
+                                imunidade, foco e até o bom funcionamento do coração. Eles participam de centenas de reações no corpo, regulam 
+                                hormônios, fortalecem ossos e garantem que tudo esteja em equilíbrio.
+                                <br/>
+                                Sem eles? Seu corpo pode sentir fadiga, queda de imunidade, falta de concentração e até desenvolver doenças.
                             </span>
-                            
-                            <ul className="pl-2 list-inside flex flex-col gap-1 md:gap-2">
-                                <li>
-                                    <b>Vitaminas:</b>A, C, D, E, K e as vitaminas do complexo B (B1, B2, B6, B12, etc.).
-                                </li>
-                                <li>
-                                    <b>Minerais</b>Ferro, cálcio, zinco, potássio, sódio, iodo, entre outros.
-                                </li>
+                        </div>
+                        <div className="">
+                            <ul className="">
+                                <li className="">🥕 <b>Vitaminas</b> – ajudam na imunidade, energia e proteção celular</li>
+                                <li className="">🥦 <b>Minerais</b> – fortalecem ossos, músculos e o equilíbrio do organismo</li>
+                                <li className="">🌱 <b>Oligoelementos</b> – mesmo em quantidades mínimas, são cruciais para o metabolismo</li>
+                                <li className="">🍇 <b>Antioxidantes</b> – combatem radicais livres e o envelhecimento precoce</li>
                             </ul>
-                            <span>
-                                É importante manter um equilíbrio na ingestão de micronutrientes, pois o consumo excessivo de alguns deles também pode ser 
-                                prejudicial à saúde.
+                        </div>
+                        <div className="flex flex-col mt-2 md:m-0 gap-3 lg:gap-2">
+                            <span className="text-base font-normal md:font-semibold">Quer entender como cada micronutriente age no seu corpo e onde encontrá-los na alimentação? Descubra no guia completo.</span>
+                            <span className="w-fit rounded-lg text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
+                                <a href="/macronutrientes" title="Página em construção">Ver Guia de Micronutrientes</a>
                             </span>
-                            <a 
-                                href="/micronutrientes" 
-                                title="Micronutrientes" 
-                                className="w-fit px-2 py-0.5 rounded-lg font-medium bg-[#121224] text-[#E0E0E0] hover:underline hover:text-[#FFFFFF] hover:font-bold
-                                            max-[420px]:text-base
-                            ">
-                                Entenda mais os micronutrientes
-                            </a>
-                        </p>
-                    </div>
+                        </div>
+                    </section>
+
+                    {/* HIDRATAÇÃO */}
+                    <section className="px-2 pt-2 pb-2 flex flex-col gap-3 rounded-lg  md:px-4 md:py-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
+                        <div className="flex flex-col">
+                            <h2 className="hidden md:block text-lg md:text-2xl font-semibold">Hidratação: o combustível invisível do seu corpo</h2>
+                            <h2 className="md:hidden text-lg md:text-2xl font-semibold">Hidratação: o combustível invisível do seu corpo<span className="hidden md:block">Mais do que matar a sede: descubra como a água regula seu metabolismo, melhora seu desempenho e até influencia no emagrecimento.</span></h2>
+                            
+                        </div>
+                        <div className="">
+                            <ul className="">
+                                <li className="">💧 Mantém a temperatura do corpo equilibrada</li>
+                                <li className="">⚡ Dá energia e melhora a disposição</li>
+                                <li className="">🧠 Favorece concentração e clareza mental</li>
+                                <li className="">🍽️ Ajuda na digestão e no controle do apetite</li>
+                                <li className="">🏋️ Essencial para músculos e desempenho físico</li>
+                            </ul>
+                        </div>
+                        <div className="flex flex-col mt-2 md:m-0 gap-3 lg:gap-2">
+                            <span className="text-base font-normal md:font-semibold">Quer entender como a hidratação pode transformar sua saúde e sua rotina? Clique abaixo e descubra os fundamentos completos.</span>
+                            <span className="w-fit rounded-lg text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
+                                <a href="/macronutrientes" title="Página em construção">Saber mais sobre Hidratação</a>
+                            </span>
+                        </div>
+                    </section>
+
+                    {/* DIGESTÃO E METABOLISMO */}
+                    <section className="px-2 pt-2 pb-2 flex flex-col gap-3 rounded-lg  md:px-4 md:py-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
+                        <div className="flex flex-col">
+                            <h2 className="hidden md:block text-lg md:text-2xl font-semibold">Digestão e Metabolismo: como seu corpo transforma comida em energia.</h2>
+                            <h2 className="md:hidden text-lg md:text-2xl font-semibold">Digestão e Metabolismo: como seu corpo transforma comida em energia.</h2>
+                            <span className="text-base hidden md:block">
+                                Entenda de forma simples como os alimentos que você come são processados e usados pelo corpo — e descubra por que 
+                                isso é essencial para quem quer emagrecer, manter ou ganhar massa.
+                            </span>
+                        </div>
+                        <div className="">
+                            <ul className="">
+                                <li className="">🥦 Digestão</li>
+                                <li className="">🧪 Absorção</li>
+                                <li className="">🔥 Metabolismo</li>
+                                <li className="">🏃 Catabolismo</li>
+                                <li className="">🛠️Anabolismo e Catabolismo</li>
+                                <li className="">⚖️Energia diária</li>
+                            </ul>
+                        </div>
+                        <div className="flex flex-col mt-2 md:m-0 gap-3 lg:gap-2">
+                            <span className="text-base font-normal md:font-semibold">Quer entender de forma clara como tudo isso acontece no seu corpo?</span>
+                            <span className="w-fit rounded-lg text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
+                                <a href="/macronutrientes" title="Página em construção">Ver explicação completa</a>
+                            </span>
+                        </div>
+                    </section>
+
+
+
+
 
                     {/* EMAGRECIMENTO */}
-                    <div className="px-2 py-1 rounded-lg flex flex-col gap-2 md:px-2 md:py-2 md:rounded-xl bg-[#E0E0E0]">
+                    {/* <section className=" px-2 py-1 rounded-lg flex flex-col gap-2 md:px-2 md:py-2 md:rounded-xl bg-[#E0E0E0]">
                         <span className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-1"> 
                             <span>Como funciona o emagrecimento?</span><br/>
                             <i className="w-full text-sm md:text-sm md:font-normal mb:0.5 md:mb-2"> Emagrecer é o processo de usar mais energia do que se consome. </i>
@@ -281,14 +335,14 @@ export default function Home(){
                                 Saiba sobre emagrecimento e ganho de massa
                             </span>
                         </p>
-                    </div>
+                    </section> */}
                 </article>
                 {/* ANUNCIOS*/}
-                    <div className="w-1/6 max-h-full border-2 border-blue-600/0 py-4 px-2 flex flex-wrap items-start justify-center rounded-lg"> 
+                    <div className="hidden lg:w-1/6 max-h-full border-2 border-blue-600/0 py-4 px-2 md:flex flex-wrap items-start justify-center rounded-lg"> 
                         <AdComponentMobile/>
                     </div>
                 {/* ANUNCIOS*/}
-            </section>
+            </div>
         </>
     )
 }
