@@ -54,7 +54,7 @@ export default function Home(){
                         lg:w-4/6 lg:text-base lg:px-3 lg:py-3
                 ">
                     
-                    <section className="px-2 pt-4 pb-2 rounded-lg flex flex-col gap-3 md:px-4 md:pt-2 md:pb-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
+                    <section className="w-full px-2 pt-4 pb-2 rounded-lg flex flex-col gap-3 md:px-4 md:pt-2 md:pb-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
                         {/* NUTRIÇÃO */}
                         <div className="flex flex-col">
                             <h2 className="text-2xl md:text-3xl font-bold">NUTRIÇÃO</h2>
@@ -111,63 +111,17 @@ export default function Home(){
 
                                 </ul>
                             </div>
-                            <div className="flex flex-col mt-2 md:m-0 gap-3 lg:gap-2">
+                            <div className="flex flex-col mt-2 md:m-0 gap-4 lg:gap-2">
                                 <span className="text-base font-medium md:font-semibold">Quer entender de forma simples e prática como aplicar tudo isso no seu dia a dia?</span>
-                                <span className="w-fit rounded-lg bg-[#121224] px-2 py-1 text-base text-[#e7e7e7]">
-                                    Descubra os Fundamentos da Nutrição →
+                                <span className="w-fit rounded-lg max-[420px]:text-sm text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
+                                    <a href="/nutricao" title="Página sobre nutricao">Descubra os Fundamentos da Nutrição </a>
                                 </span>
                             </div>
                         </div>
                     </section>
 
-                    {/* EXPLICAÇÃO TMB */}
-                    <section className="px-2 pt-2 pb-2 rounded-lg  md:px-4 md:py-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
-                        <h2 className="text-2xl md:text-3xl text-center font-bold font-sans mb-4 md:mb-8"> O QUE É TMB?</h2>
-                        <p className="w-full h-auto flex flex-col gap-4 mb-8 md:mb-4">
-                            <span>
-                                TMB é a Taxa Metabólica Basal. Ela representa a quantidade de energia que o corpo consome para manter suas 
-                                funções vitais em repouso — como respirar, bombear o sangue e regular a temperatura corporal.
-                            </span>
-                            <span>
-                                Já o gasto energético corresponde ao total de calorias que seu corpo usa ao longo do dia, incluindo atividades 
-                                físicas, digestão, movimentos e até o raciocínio. Estimar esse gasto é essencial para quem deseja manter o peso, 
-                                emagrecer ou ganhar massa muscular, e ele varia conforme idade, peso, sexo e rotina.
-                            </span>
-                            <span>
-                                A nossa calculadora pode te ajudar a descobrir sua TMB e o seu gasto energético. Com esse número em mãos, você 
-                                pode ajustar sua alimentação de forma mais estratégica.
-                            </span>
-                            
-                            <a href="/calculadora" className="w-fit px-2 py-0.5 text-base font-semibold rounded-lg bg-[#00A6C0] text-[#00111A] hover:underline hover:text-[#000108]">Clique aqui para calcular sua TMB</a>
-                        </p>
-                        {/* PORQUE CALCULAR SUA TMB? */}
-                        <h2 className="w-full text-xl md:text-2xl font-semibold"> Por que calcular sua TMB? </h2>
-                            <ul className="mb-4 md:mb-0 list-disc list-inside pl-2 flex flex-col gap-1 md:gap-1">
-                                <li> Evita dietas aleatórias</li>
-                                <li> Ajuda a planejar sua alimentação</li>
-                                <li> Reduz erros comuns ao tentar emagrecer ou ganhar massa</li>
-                                <li> Promove saúde com responsabilidade</li>
-                            </ul>
-                        <span className="w-full text-xl md:text-2xl font-semibold font-sans mb:2 md:mb-1"> Como saber quanto estou comendo? </span>
-                        <p className="w-full h-auto mb-4">
-                            Existem aplicativos que facilitam o controle da alimentação diária. Com eles, você pode buscar alimentos, 
-                            escanear rótulos, salvar receitas e registrar tudo o que come ao longo do dia.
-                            <br/><br/>
-                            Entre os mais usados estão:
-                            <br/>
-                            <ul className="list-disc list-inside pl-2 flex flex-col gap-0.5 md:gap-1">
-                                <li>MyFitnessPal</li>
-                                <li>Yazio</li>
-                                <li>FatSecret</li>
-                                <li>HealthifyMe</li>
-                            </ul>
-                            <br/>
-                            Com eles, é possível escanear alimentos, salvar receitas e montar seu próprio diário alimentar.
-                        </p>
-                    </section>
-
                     {/* 3 PILARES DA ALIMENTAÇÃO */}
-                    <section className="px-2 pt-2 pb-2 flex flex-col gap-3 rounded-lg  md:px-4 md:py-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
+                    <section className="w-full px-2 pt-2 pb-2 flex flex-col gap-3 rounded-lg  md:px-4 md:py-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
                         <div className="flex flex-col">
                             <h2 className="hidden md:block text-lg md:text-2xl font-semibold">Os 3 pilares da sua alimentação: Proteínas, Carboidratos e Gorduras</h2>
                             <h2 className="md:hidden text-lg md:text-2xl font-semibold">Os 3 pilares da sua alimentação<span className="hidden md:block">: Proteínas, Carboidratos e Gorduras</span></h2>
@@ -208,14 +162,14 @@ export default function Home(){
                         </div>
                         <div className="flex flex-col mt-2 md:m-0 gap-3 lg:gap-2">
                             <span className="text-base font-normal md:font-semibold">Quer entender como equilibrar cada macronutriente na sua dieta e usá-los a seu favor?</span>
-                            <span className="w-fit rounded-lg text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
+                            <span className="w-fit rounded-lg max-[420px]:text-sm text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
                                 <a href="/macronutrientes" title="Página em construção">Descubra mais aqui</a>
                             </span>
                         </div>
                     </section>
 
                     {/* MICRONUTRIENTES */}
-                    <section className="px-2 pt-2 pb-2 flex flex-col gap-3 rounded-lg  md:px-4 md:py-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
+                    <section className="w-full px-2 pt-2 pb-2 flex flex-col gap-3 rounded-lg  md:px-4 md:py-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
                         <div className="flex flex-col">
                             <h2 className="hidden md:block text-lg md:text-2xl font-semibold">Micronutrientes: os pequenos heróis da sua saúde</h2>
                             <h2 className="md:hidden text-lg md:text-2xl font-semibold">Micronutrientes: os pequenos heróis da sua saúde<span className="hidden md:block">Vitaminas e minerais que fazem toda a diferença no seu corpo — mesmo em quantidades minúsculas.</span></h2>
@@ -237,14 +191,14 @@ export default function Home(){
                         </div>
                         <div className="flex flex-col mt-2 md:m-0 gap-3 lg:gap-2">
                             <span className="text-base font-normal md:font-semibold">Quer entender como cada micronutriente age no seu corpo e onde encontrá-los na alimentação? Descubra no guia completo.</span>
-                            <span className="w-fit rounded-lg text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
+                            <span className="w-fit rounded-lg max-[420px]:text-sm text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
                                 <a href="/macronutrientes" title="Página em construção">Ver Guia de Micronutrientes</a>
                             </span>
                         </div>
                     </section>
 
                     {/* HIDRATAÇÃO */}
-                    <section className="px-2 pt-2 pb-2 flex flex-col gap-3 rounded-lg  md:px-4 md:py-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
+                    <section className="w-full px-2 pt-2 pb-2 flex flex-col gap-3 rounded-lg  md:px-4 md:py-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
                         <div className="flex flex-col">
                             <h2 className="hidden md:block text-lg md:text-2xl font-semibold">Hidratação: o combustível invisível do seu corpo</h2>
                             <h2 className="md:hidden text-lg md:text-2xl font-semibold">Hidratação: o combustível invisível do seu corpo<span className="hidden md:block">Mais do que matar a sede: descubra como a água regula seu metabolismo, melhora seu desempenho e até influencia no emagrecimento.</span></h2>
@@ -261,14 +215,14 @@ export default function Home(){
                         </div>
                         <div className="flex flex-col mt-2 md:m-0 gap-3 lg:gap-2">
                             <span className="text-base font-normal md:font-semibold">Quer entender como a hidratação pode transformar sua saúde e sua rotina? Clique abaixo e descubra os fundamentos completos.</span>
-                            <span className="w-fit rounded-lg text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
+                            <span className="w-fit rounded-lg max-[420px]:text-sm text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
                                 <a href="/macronutrientes" title="Página em construção">Saber mais sobre Hidratação</a>
                             </span>
                         </div>
                     </section>
 
                     {/* DIGESTÃO E METABOLISMO */}
-                    <section className="px-2 pt-2 pb-2 flex flex-col gap-3 rounded-lg  md:px-4 md:py-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
+                    <section className="w-full px-2 pt-2 pb-2 flex flex-col gap-3 rounded-lg  md:px-4 md:py-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]">
                         <div className="flex flex-col">
                             <h2 className="hidden md:block text-lg md:text-2xl font-semibold">Digestão e Metabolismo: como seu corpo transforma comida em energia.</h2>
                             <h2 className="md:hidden text-lg md:text-2xl font-semibold">Digestão e Metabolismo: como seu corpo transforma comida em energia.</h2>
@@ -289,53 +243,11 @@ export default function Home(){
                         </div>
                         <div className="flex flex-col mt-2 md:m-0 gap-3 lg:gap-2">
                             <span className="text-base font-normal md:font-semibold">Quer entender de forma clara como tudo isso acontece no seu corpo?</span>
-                            <span className="w-fit rounded-lg text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
+                            <span className="w-fit rounded-lg max-[420px]:text-sm text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
                                 <a href="/macronutrientes" title="Página em construção">Ver explicação completa</a>
                             </span>
                         </div>
                     </section>
-
-
-
-
-
-                    {/* EMAGRECIMENTO */}
-                    {/* <section className=" px-2 py-1 rounded-lg flex flex-col gap-2 md:px-2 md:py-2 md:rounded-xl bg-[#E0E0E0]">
-                        <span className="w-full text-xl md:text-2xl font-semibold font-sans mb:0.5 md:mb-1"> 
-                            <span>Como funciona o emagrecimento?</span><br/>
-                            <i className="w-full text-sm md:text-sm md:font-normal mb:0.5 md:mb-2"> Emagrecer é o processo de usar mais energia do que se consome. </i>
-                        </span>
-                        <p className="w-full h-auto mb-4">
-                            <p>
-                                Nosso corpo gasta energia o tempo todo: para respirar, pensar, andar, digerir alimentos, se movimentar e até dormir. Essa energia vem da comida que comemos — principalmente dos carboidratos, gorduras e proteínas.
-                            </p>
-                            <br/>
-                            <p>
-                                Quando comemos menos calorias do que gastamos, o corpo busca essa energia faltante nas reservas de gordura. Com o tempo, isso leva à perda de peso — especialmente de gordura corporal.
-                            </p>
-                            <br/>
-                            ✅&nbsp; Em resumo:
-                            <ol className="pl-2 list-inside list-decimal flex flex-col gap-1 md:gap-2">
-                                <li>
-                                    Se você gasta mais calorias do que consome → emagrece.
-                                </li>
-                                <li>
-                                    Se você come mais calorias do que gasta → engorda.
-                                </li>
-                            </ol>
-                            <br/>
-                            Isso é chamado de <b>balanço calórico.</b>
-                            <br/><br/>
-                            <span 
-                                href="/#" 
-                                title="Página em construção" 
-                                className="w-fit px-2 py-1 md:py-0.5 rounded-lg font-medium bg-[#323248] text-[#C0C0C0]
-                                            max-[420px]:text-base
-                            ">
-                                Saiba sobre emagrecimento e ganho de massa
-                            </span>
-                        </p>
-                    </section> */}
                 </article>
                 {/* ANUNCIOS*/}
                     <div className="hidden lg:w-1/6 max-h-full border-2 border-blue-600/0 py-4 px-2 md:flex flex-wrap items-start justify-center rounded-lg"> 

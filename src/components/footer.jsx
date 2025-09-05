@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
         <>
-            <div className="min-h-[5vh] w-full px-4 py-2 gap-4 bottom-0 flex flex-col justify-between items-center text-sm  bg-[#000108] text-[#E5E5E5] 
+            <div className="min-h-[5vh] w-full px-4 py-2 gap-4 bottom-0 flex flex-col justify-between items-center text-sm  bg-[#060612] text-[#E5E5E5] 
                             lg:h-[10vh] lg:px-20 lg:relative lg:flex-row lg:justify-center lg:gap-8 lg:text-lg lg:font-light           
             ">
                 <span className="max-w-24 max-h-16 px-4 py-0 md:px-0 md:py-0 rounded-md md:rounded-2xl">
