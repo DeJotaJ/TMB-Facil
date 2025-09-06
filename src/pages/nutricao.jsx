@@ -26,7 +26,7 @@ export default function Nutricao(){
                             <span className="w-full text-base">
                                 Descubra como a alimentação influencia sua energia, saúde e resultados — e aprenda a calcular exatamente o que seu corpo precisa.
                             </span>
-                            <img className="w-80 h-80 drop-shadow-sm drop-shadow-zinc-700 " src="./balançaAlimentoXEnergia.png" alt="Balança do alimentos e"/>
+                            <img className="w-80 h-80 drop-shadow-sm drop-shadow-zinc-700 " src="./Nutricao/balançaAlimentoXEnergia.png" alt="Balança do alimentos e"/>
                         </div>
 
                         {/* Nutrição: a base da sua saúde e dos seus resultados */}
@@ -51,7 +51,7 @@ export default function Nutricao(){
                                     Suportar treinos e exercícios físicos
                                 </li>
                             </ul>
-                            <img className="w-92 h-36 rounded-xl" src="./bateriaAlimentos.png" alt="" />
+                            <img className="w-92 h-36 rounded-xl" src="./Nutricao/bateriaAlimentos.png" alt="" />
                         </div>
                         
                         {/* TMB */}
@@ -68,7 +68,7 @@ export default function Nutricao(){
                                 💡 Se sua TMB for 1.600 calorias, isso significa que seu corpo gasta 1.600 kcal só para 
                                 sobreviver — sem contar atividades do dia a dia.
                             </span>
-                            <img className="w-64 h-64 rounded-xl" src="./pessoaDescansando.jpeg" alt="Balança do alimentos e"/>
+                            <img className="w-64 h-64 rounded-xl" src="./Nutricao/pessoaDescansando.jpeg" alt="Balança do alimentos e"/>
                         </div>
 
                         {/* GET */}
@@ -95,7 +95,7 @@ export default function Nutricao(){
                                 🔎 Exemplo: Se sua TMB é 1.600 kcal e você gasta mais 600 kcal em atividades, seu GET 
                                 será 2.200 kcal/dia.
                             </span>
-                            <img className="w-64 h-64 drop-shadow-md drop-shadow-zinc-500 rounded-xl" src="./infográficoTMBGET.png" alt=""/>
+                            <img className="w-64 h-64 drop-shadow-md drop-shadow-zinc-500 rounded-xl" src="./Nutricao/infográficoTMBGET.png" alt=""/>
                         </div>
                         
                         {/* Perder, manter ou ganhar peso */}
@@ -119,9 +119,9 @@ export default function Nutricao(){
                                 </li>
                             </ul>
                             <div className="w-full flex justify-center items-center md:gap-2">
-                                <img className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-32 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" src="./refPequena01.png" alt=""/>
-                                <img className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-52 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" src="./refMedia01.png" alt=""/>
-                                <img className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-44 drop-shadow-lg drop-shadow-zinc-700 rounded-xl" src="./refGrande01.png" alt=""/>
+                                <img className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-32 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" src="./Nutricao/refPequena01.png" alt=""/>
+                                <img className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-52 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" src="./Nutricao/refMedia01.png" alt=""/>
+                                <img className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-44 drop-shadow-lg drop-shadow-zinc-700 rounded-xl" src="./Nutricao/refGrande01.png" alt=""/>
                             </div>
                             
                         </div>
@@ -143,7 +143,7 @@ export default function Nutricao(){
                                 <a className="w-full px-4 py-0.5 text-base text-center md:w-fit bg-[#121224] text-[#E7E7E7] rounded-lg hover:underline hover:text-[#FFFFFF] hover:font-bold" href="./calculadora">Calcule sua TMB agora</a>
                             </div>
                             <div className="md:w-1/3 h-auto flex justify-center rounded-xl">
-                                <img className="w-60 h-60 drop-shadow-sm drop-shadow-zinc-700 rounded-xl" src="./garoto-adolescente-comendo-na-mesa.png" alt=""/>
+                                <img className="w-60 h-60 drop-shadow-sm drop-shadow-zinc-700 rounded-xl" src="./Nutricao/garoto-adolescente-comendo-na-mesa.png" alt=""/>
                             </div>
                         </div>
                     </section>
