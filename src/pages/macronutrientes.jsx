@@ -3,81 +3,121 @@ export default function Macronutrientes(){
         <>
             <div className="relative w-full min-h-[80dvh] flex justify-center  bg-[#E7E7E7] text-[#121224]">
                     <main className="
-                            w-full  text-sm  flex flex-col items-center gap-0 py-4 px-4  bg-[#E0E0E0] md:shadow-[0_4px_8px] md:shadow-[#a0a0a0]
-                            md:w-3/4 lg:w-2/3 lg:text-base lg:px-12 lg:py-8 lg:justify-start lg:items-start
+                            w-full  text-sm  flex flex-col items-center gap-12 py-4 px-4  bg-[#E0E0E0] md:shadow-[0_4px_8px] md:shadow-[#a0a0a0]
+                            md:w-3/4 
+                            lg:w-2/3 lg:text-base lg:px-12 lg:py-8 lg:justify-start lg:items-start lg:gap-12
                     ">
-                        <h1 className="text-3xl mt-2 lg:text-4xl font-black">Macronutrientes</h1>
-                        <h2 className="hidden lg:block lg:mb-2 lg:text-lg font-light italic">Conheça os nutrientes que dão energia e sustentam o funcionamento do corpo.</h2>
-                        <div class="my-8 text-justify leading-relaxed">
+                        {/* APRESENTAÇÃO */}
+                        <div className="flex flex-col gap-3 items-center max-[420px]:mb-4">
+                            <h1 className="w-full max-[420]:text-xl text-2xl mt-2 lg:text-3xl font-black">Macronutrientes: O combustível do seu corpo</h1>
+                            <span className="w-full h-auto max-[420px]:text-lg text-xl">
+                                Você já parou para pensar no que realmente alimenta suas células e mantém seu corpo em movimento? Esses 
+                                elementos são chamados de macronutrientes: proteínas, carboidratos, gorduras e água. Nesta página, você vai 
+                                entender de forma simples e prática para que serve cada um deles e como influenciam sua saúde, disposição e 
+                                até mesmo seus resultados na dieta.
+                            </span>
                             <img
-                                class="w-32 md:w-40 lg:w-64 h-auto md:h-auto lg:mt-4 object-contain float-left mt-2 mr-4 rounded"
-                                src="./macronutrientes.png" alt="macronutrientes"
+                                class="w-48 md:w-56 lg:w-64 h-auto md:h-auto lg:mt-4 object-contain float-left mt-2 mr-4 rounded"
+                                src="./Macro/macronutrientes02.png" alt="macronutrientes"
                             />
-                            <p className="lg:py-8 lg:text-lg text-sm">
-                                Os macronutrientes são os grandes aliados do seu corpo. Presentes na maioria dos alimentos, eles garantem 
-                                energia, construção muscular, funcionamento do cérebro e até a absorção de vitaminas. Vamos entender 
-                                melhor cada um?
+                        </div>
+                        
+                        {/* PROTEÍNAS */}
+                        <div className="flex flex-col gap-4 justify-center max-[420px]:mb-4">
+                            <h2 className="w-full h-auto text-2xl md:text-[28px] font-semibold">Proteínas</h2>
+                            <h3 className="w-full h-auto text-xl md:text-2xl font-semibold">
+                                🥩 Proteínas: os tijolos que constroem você
+                            </h3>
+                            <p className="w-full h-auto max-[420px]:text-lg text-xl">
+                                As proteínas são como os <span className="font-semibold">tijolos que formam o seu corpo.</span> Elas estão 
+                                nos músculos, na pele, no cabelo, nas unhas, nos hormônios e até nas 
+                                defesas do seu organismo.
+                            </p>
+                            <ul className="max-[420px]:text-base text-xl">
+                                <li className="list-disc ml-4">Constroem e reparam músculos e tecidos</li>
+                                <li className="list-disc ml-4">Produzem enzimas e hormônios</li>
+                                <li className="list-disc ml-4">Fazem parte do sistema imunológico</li>
+                                <li className="list-disc ml-4">Podem gerar energia (4 kcal por grama)</li>
+                            </ul>
+                        </div>
+                        
+                        {/* CARBOÍDRATOS */}
+                        <div className="flex flex-col gap-4 justify-center max-[420px]:mb-4">
+                            <h2 className="w-full h-auto text-2xl md:text-[28px] font-semibold">Carboidratos</h2>
+                            <h3 className="w-full h-auto text-xl md:text-2xl font-semibold">🍞 Carboidratos: sua principal fonte de energia</h3>
+                            <p className="w-full h-auto max-[420px]:text-lg text-xl">
+                                São <span className="font-semibold">os combustíveis preferidos do corpo</span>. Cérebro, músculos e até o coração dependem deles para funcionar bem. Mas atenção: existem carboidratos que dão energia por mais tempo e outros que causam picos de glicose.
+                            </p>
+                            <ul className="max-[420px]:text-base text-xl">
+                                <li className="list-disc ml-4"><span className="font-semibold">Simples (rápidos):</span> açúcar, doces, refrigerantes (energia imediata, pouca saciedade).</li>
+                                <li className="list-disc ml-4"><span className="font-semibold">Complexos (lentos):</span> arroz integral, aveia, batata-doce, frutas (energia constante, mais saciedade).</li>
+                            </ul>
+                            <p className="w-full px-4 py-2 max-[420px]:text-base text-xl bg-[#A7A7A7] italic border-l-4 border-[#121224]">
+                                💡 Dica rápida: <span className="font-semibold">Não corte totalmente os carboidratos</span>. O segredo é escolher os certos.
                             </p>
                         </div>
-                        {/* CARDS */}
-                        <div className="w-full h-auto flex flex-col items-center gap-4 py-4 lg:flex-row lg:gap-8">
-                            {/* CARD CARBOIDRATO */}
-                            <div className="border-2 border-[#121224] w-12/12 h-auto rounded-lg">
-                                <h3 className="w-full p-0.5 bg-[#F0F0F0] rounded-t-lg text-lg uppercase text-center"> 🍞 Carboidratos
-                                <br/></h3>
-                                <h4 className="h-14 md:h-8 lg:h-16 px-1 py-1 bg-[#121224] border-b-2 border-[#F0F0F0] text-[#F0F0F0] text-base "><b>Fontes:</b> arroz, massas, frutas, legumes</h4>
-                                <p className="min-h-28 md:min-h-[8rem] lg:min-h-[20rem] px-1 py-1 bg-[#121224] text-[#F0F0F0] rounded-b-sm text-base text-start">
-                                    A principal fonte de energia. Transformam-se em glicose para alimentar suas células. 
-                                    Essenciais para o cérebro e músculos. Preferencialmente, os carboidratos devem vir de 
-                                    alimentos ricos em fibras, minimamente processados, como grãos integrais, vegetais, frutas e leguminosas.
-                                </p>
-                            </div>
-                            {/* CARD PROTEÍNA */}
-                            <div className="border-2 border-[#121224] w-12/12 h-auto rounded-lg">
-                                <h3 className="w-full p-0.5 bg-[#F0F0F0] rounded-t-lg text-lg uppercase text-center"> 🍗 Proteínas <br /> </h3>
-                                <h4 className="h-14 md:h-8 lg:h-16 px-1 py-1 bg-[#121224] border-b-2 border-[#F0F0F0] text-[#F0F0F0] text-base "><b>Fontes:</b> carnes, ovos, feijão, grão-de-bico</h4>
-                                <p className="min-h-28 md:min-h-[8rem] lg:min-h-[20rem] px-1 py-1 bg-[#121224] text-[#F0F0F0] rounded-b-sm text-base ">
-                                    Estrutura e recuperação. Reparam tecidos, constroem músculos e produzem enzimas. Fundamentais para quem treina.
-                                    <br/>
-                                    Prefira a proteína vinda de Ovos, Carnes Magras(aves e peixes), Laticínios com baixo teor de gordura(Leite, iogurte natural, queijo cottage)
-                                    Leguminosas(feijão, lentilha, grão-de-bico), Nozes e Sementes(Amêndoas, castanhas, sementes de chia)
-                                </p>
-                            </div>
-                            {/* CARD GORDURA */}
-                            <div className="border-2 border-[#121224] w-12/12 h-auto rounded-lg">
-                                <h3 className="w-full p-0.5 bg-[#F0F0F0] rounded-t-lg text-lg uppercase text-center"> 🥑 Gorduras
-                                <br/></h3>
-                                <h4 className="h-14 md:h-8 lg:h-16 px-1 py-1 bg-[#121224] border-b-2 border-[#F0F0F0] text-[#F0F0F0] text-base "><b>Fontes:</b> azeite, abacate, nozes, peixes</h4>
-                                <p className="min-h-28 md:min-h-[8rem] lg:min-h-[20rem] px-1 py-1 bg-[#121224] text-[#F0F0F0] rounded-b-sm text-base ">
-                                    Energia e proteção. Essenciais para absorver vitaminas, proteger órgãos e produzir hormônios.
-                                    <br/>
-                                    Gorduras não saturadas (presentes em peixes, abacate, nozes, óleos de girassol, soja e canola e azeite) 
-                                    são preferíveis às gorduras saturadas (encontradas em carnes, manteiga, coco, queijo e banha) 
-                                    e às gorduras trans de todos os tipos, principalmente as produzidas industrialmente.
-                                </p>
-                            </div>
+                        
+                        {/* GORDURAS */}
+                        <div className="flex flex-col gap-4 justify-center max-[420px]:mb-4">
+                            <h2 className="w-full h-auto text-2xl md:text-[28px] font-semibold">Gorduras (Lipídios)</h2>
+                            <h3 className="w-full h-auto text-xl md:text-2xl font-semibold">🥑 Gorduras: energia concentrada e hormônios equilibrados</h3>
+                            <p className="w-full h-auto max-[420px]:text-lg text-xl">
+                                Durante muito tempo, as gorduras foram vistas como vilãs. Mas a 
+                                verdade é que elas <span className="font-semibold">são essenciais para sua saúde</span>, desde a 
+                                produção de hormônios até a absorção de vitaminas importantes.
+                            </p>
+                            <ul className="max-[420px]:text-base text-xl">
+                                <li className="list-disc ml-4"><span className="font-semibold">Boas (insaturadas):</span> azeite, abacate, castanhas, peixes (protegem o coração, reduzem inflamações).</li>
+                                <li className="list-disc ml-4"><span className="font-semibold">Saturadas (moderação):</span> carnes gordas, laticínios integrais.</li>
+                                <li className="list-disc ml-4"><span className="font-semibold">Trans (evite!):</span> biscoitos industrializados, fast food, margarinas.</li>
+                            </ul>
+                            <p className="w-full px-4 py-2 max-[420px]:text-base text-xl bg-[#A7A7A7] italic border-l-4 border-[#121224]">
+                                💡 Informação de impacto: As gorduras são o nutriente mais calórico — <span className="font-semibold">9 kcal por grama</span>, mas também o mais eficiente como reserva de energia.
+                            </p>
                         </div>
-                        <div className="py-4 flex flex-col items-center gap-4 text-base md:text-lg lg:flex-row lg:gap-12 lg:px-4">
-                            <span className="flex flex-col gap-4 lg:gap-1">
-                                Quanto aos nutrientes essenciais, OMS e Opas recomendam a seguinte proporção de consumo, em uma dieta diária 
-                                de 2 mil calorias.
-                                <ul className="list-disc list-inside ">
-                                    <li>Carboidratos: de 45% a 75% do total de calorias consumidas por dia;</li>
-                                    <li>Gorduras: de 15% a 30% do total calórico diário, com uma exceção para crianças e adolescentes, que podem consumir até 35%;</li>
-                                    <li>Proteínas: de 10% a 15% do total de calorias diárias.</li>
-                                </ul>
-                                <p>Segue um gráfico representando uma dieta equilibrada. Lembrando que a porção de cada macronutriente varia de acordo com seus objetivos.</p>
-                            </span>
-                            <img className="w-56 h-auto md:w-80 md:h-auto" src="./graficoMacros.png" alt="Gráfico de Macros" />
+                        
+                        {/* ÁGUA */}
+                        <div className="flex flex-col gap-4 justify-center max-[420px]:mb-4">
+                            <h2 className="w-full h-auto text-2xl md:text-[28px] font-semibold">Água</h2>
+                            <h3 className="w-full h-auto text-xl md:text-2xl font-semibold">💧 Água: o macronutriente invisível</h3>
+                            <p className="w-full h-auto max-[420px]:text-lg text-xl">
+                                Muita gente esquece, mas a água é fundamental para todos os processos do corpo. Sem ela, nenhum nutriente seria transportado, nenhuma célula funcionaria bem e sua saúde entraria em colapso.
+                            </p>
+                            <ul className="max-[420px]:text-base text-xl">
+                                <li className="list-disc ml-4">Transporta nutrientes e oxigênio</li>
+                                <li className="list-disc ml-4">Regula a temperatura corporal</li>
+                                <li className="list-disc ml-4">Elimina toxinas (urina e suor)</li>
+                                <li className="list-disc ml-4">Lubrifica articulações</li>
+                            </ul>
+                            <p className="w-full px-4 py-2 max-[420px]:text-base text-xl bg-[#A7A7A7] italic border-l-4 border-[#121224]">
+                                💡 Curiosidade: Cerca de <span className="font-semibold">60% do seu corpo é água.</span><br/> Recomendação: 35 ml por quilo de peso por dia (ajustando para clima e atividade física).
+                            </p>
+                        </div>
 
+                        {/* CONCLUSÃO */}
+                        <div className="flex flex-col gap-4 justify-center max-[420px]:mb-4">
+                            <h2 className="w-full h-auto max-[420px]:text-xl text-2xl md:text-[28px] font-semibold">Equilíbrio é a chave</h2>
+                            <p className="w-full h-auto max-[420px]:text-lg text-xl">
+                                Proteínas, carboidratos, gorduras e água não são inimigos da sua saúde —
+                                pelo contrário, são a base da vida. O segredo não está em cortar, mas 
+                                em equilibrar cada um deles na sua rotina.<br/> Se você aprender a dar 
+                                ao seu corpo a quantidade certa de cada macronutriente, terá mais 
+                                energia, disposição e saúde para viver bem.
+                            </p>
+                            <p className="w-full h-auto max-[420px]:text-lg text-xl font-medium italic">
+                                Quer aprender como calcular a quantidade ideal para o seu corpo? 
+                                Continue navegando pelo site e descubra como adaptar os macronutrientes 
+                                ao seu objetivo.
+                            </p>
+                            <a 
+                                href="/micronutrientes" 
+                                title="Páginas sobre Micronutrientes" 
+                                className="w-fit uppercase max-[420px]:text-lg text-lg max-[420px]:my-4 my-8 md:my-0 font-medium text-[#121224] hover:font-bold underline hover:cursor-pointer 
+                            ">
+                                ► Veja também sobre micronutrientes
+                            </a>
                         </div>
-                        <a 
-                            href="/calculadora" 
-                            title="Calculadora de Taxa Metabólica Basal(TMB)" 
-                            className="my-8 text-lg font-medium hover:font-bold hover:underline hover:cursor-pointer text-[#121224] md:text-shadow-sm md:text-shadow-[#a0a0a0]
-                        ">
-                            Veja como calcular sua TMB (Taxa Metabólica Basal)
-                        </a>
+                        
                         <p className="md:w-5/5 text-center bg-[#121220] text-[#F0F0F0] rounded-lg px-2 py-1 text-base font-sans uppercase">
                             Não existe dieta ideal sem equilíbrio! Cada pessoa tem uma necessidade diferente.
                             <br/> 

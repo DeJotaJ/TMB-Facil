@@ -1,104 +1,142 @@
-export default function Macronutrientes(){
-    return(
+export default function Micronutrientes() {
+    return (
         <>
             <div className="relative w-full min-h-[80dvh] flex justify-center  bg-[#E7E7E7] text-[#121224]">
-                    <main className="
-                            w-full  text-sm  flex flex-col items-center gap-0 py-4 px-4  bg-[#E0E0E0] md:shadow-[0_4px_8px] md:shadow-[#a0a0a0]
-                            md:w-3/4 lg:w-2/3 lg:text-base lg:px-12 lg:py-8 lg:justify-start lg:items-start
+                <main className="
+                            w-full  text-sm  flex flex-col items-center gap-12 py-4 px-4  bg-[#E0E0E0] md:shadow-[0_4px_8px] md:shadow-[#a0a0a0]
+                            md:w-3/4 
+                            lg:w-2/3 lg:text-base lg:px-12 lg:py-8 lg:justify-start lg:items-center md:gap-12
                     ">
-                        <h1 className="w-full text-3xl mt-2 text-center lg:text-4xl font-black">Micronutrientes</h1>
-                        <h2 className="hidden lg:w-full lg:block lg:mb-2 lg:text-center lg:text-md font-light italic">
-                            Nutrientes essenciais para o corpo humano manter o bom funcionamento do organismo
+                    {/* APRESENTAÇÃO */}
+                    <div className="flex flex-col gap-4 items-center">
+                        <h1 className="w-full max-[420px]:text-xl text-2xl text-center lg:text-3xl font-black">Vitaminas e Minerais: Os Tijolos Essenciais da Sua Saúde</h1>
+                        <h2 className="hidden lg:w-full lg:block lg:text-center lg:text-lg font-light italic">
+                            Vitaminas e minerais que fazem toda a diferença no seu corpo — mesmo em quantidades minúsculas.
                         </h2>
-                        <div class="my-8 md:my-12 text-justify leading-relaxed">
-                            <img
-                                class="w-32 md:w-40 lg:w-64 h-auto lg:h-auto lg:mt-0 object-contain float-left mt-2 mr-4 rounded"
-                                src="./micronutrientes.png" alt="micronutrientes"
-                            />
-                            <p className="md:text-base text-sm">
-                                Micronutrientes são nutrientes essenciais, como vitaminas e minerais, que o corpo necessita em quantidades muito 
-                                pequenas — miligramas ou microgramas por dia — para manter funções vitais e proteger a saúde. Embora não forneçam energia, 
-                                são indispensáveis na defesa antioxidante, no metabolismo, na imunidade e em muitas outras funções biológicas
-                            </p>
-                        </div>
-                        <h2 className="w-full md:my-2 lg:my-8 text-center text-2xl font-semibold">Importância para o Corpo</h2>
-                        <div className="py-4 flex items-center gap-4 lg:flex-row lg:gap-8 lg:px-4">
-                            <span className="flex flex-col text-base lg:text-lg">
-                                <ul className="list-disc list-inside space-y-4">
-                                    <li><b>Fortalecimento do sistema imunológico:</b> Vitaminas C, D e minerais como zinco e selênio são essenciais contra infecções</li>
-                                    <li><b>Metabolismo energético:</b> Vitaminas do complexo B e minerais como ferro e magnésio são cruciais na produção de energia</li>
-                                    <li>
-                                        <b>Saúde óssea, tecidual e visual:</b> A vitamina A favorece a visão e a imunidade; a D regula o cálcio; o zinco e o ferro são 
-                                        importantes para crescimento, funções cognitivas e geração de hemácias
-                                    </li>
-                                    <li><b>Proteção antioxidante:</b> Vitaminas E, C e selênio combatem os radicais livres, protegendo as células</li>
-                                    <li>
-                                        <b>Desempenho físico e recuperação muscular:</b> Vitaminas B, C e D, além de minerais como ferro, magnésio, cálcio e zinco, 
-                                        influenciam desempenho, força, resistência e recuperação em quem pratica atividade física
-                                    </li>
-                                </ul>
-                            </span>
-                            <div className="hidden md:flex md:flex-col">
-                                <img className="w-16 md:w-[36rem] h-auto lg:w-80 md:h-auto" src="./fortalecimentoDoSistemaImunologico.png" alt="Gráfico de Macros" />
-                                <img className="w-16 md:w-[36rem] h-auto lg:w-80 md:h-auto" src="./ilustracaoAbstratadaAptidaoDoIdoso.png" alt="Gráfico de Macros" />
-                                <img className="w-16 md:w-[36rem] h-auto lg:w-80 md:h-auto" src="./metabolismoEnergetico.png" alt="Gráfico de Macros" />
-                            </div>
-                        </div>
-                        <h2 className="w-full mt-8 text-center text-2xl lg:text-3xl font-semibold">Melhores Fontes Alimentares</h2>
-                        <div className="w-full flex flex-wrap md:justify-around">
-                            <h3 className="w-full order-0 md:order-0 mt-4 text-lg md:w-[50%] lg:w-1/2 text-center font-semibold md:text-lg lg:text-xl">Vitamínas</h3>
-                            <h3 className="w-full order-2 md:order-0 mt-4 text-lg md:w-[50%] lg:w-1/2 text-center font-semibold md:text-lg lg:text-xl">Minerais</h3>
-                            <ul className="w-full order-1 md:order-0 md:w-[48%] lg:w-[48%] list-disc list-inside">
-                                <li className="mt-2">Lipossolúveis (A, D, E, K)
-                                    <ul className="ml-4 list-disc list-inside">
-                                        <li>A: cenoura, abóbora, fígado, manga</li>
-                                        <li>D: sol, peixes gordurosos, gema de ovo</li>
-                                        <li>E: nozes, sementes, óleos vegetais</li>
-                                        <li>K: folhas verdes, brócolis, couve</li>
-                                    </ul>
-                                </li>
-                                <li className="mt-4">Hidrossolúveis (Complexo B e C)
-                                    <ul className="ml-4 list-disc list-inside">
-                                        <li>B (B1, B2, B3, B6, B9, B12, biotina): carnes, ovos, leguminosas, grãos integrais, vegetais verdes</li>
-                                        <li>C: frutas cítricas, morango, kiwi, pimentão</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <hr className="hidden md:block text-zinc-100 bg-zinc-100 w-0.5 h-full md:h-10/12 md:my-2" />
-                            <ul className="w-full order-3 md:order-0 md:w-[48%] lg:w-[48%] list-disc list-inside pl-1">
-                                <li className="mt-2">Macrominerais
-                                    <ul className="ml-4 list-disc list-inside">
-                                        <li>Cálcio & Fósforo: leite, derivados, tofu, vegetais verdes</li>
-                                        <li>Magnésio: cereais integrais, verduras, banana, nozes</li>
-                                        <li>Potássio: banana, batata, legumes, frutas cítricas</li>
-                                    </ul>
-                                </li>
-                                <li className="mt-4">Microminerais
-                                    <ul className="ml-4 list-disc list-inside">
-                                        <li>Ferro: carnes vermelhas, leguminosas, verduras escuras</li>
-                                        <li>Zinco: carnes, castanhas, sementes</li>
-                                        <li>Iodo: sal iodado, peixes, frutos do mar</li>
-                                        <li>Selênio: castanha-do-Pará, sardinha</li>
-                                        <li>Cobre, Manganês, Flúor: fígado, nozes, leguminosas, algas</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <a 
-                            href="/calculadora" 
-                            title="Calculadora de Taxa Metabólica Basal(TMB)" 
-                            className="my-8 text-lg font-medium hover:font-bold hover:underline hover:cursor-pointer text-[#121224] md:text-shadow-sm md:text-shadow-[#a0a0a0]
-                        ">
-                            Veja como calcular sua TMB (Taxa Metabólica Basal)
-                        </a>
-                        <p className="md:w-5/5 text-center bg-[#121220] text-[#F0F0F0] rounded-lg px-2 py-1 text-base font-sans uppercase">
-                            Não existe dieta ideal sem equilíbrio! Cada pessoa tem uma necessidade diferente.
-                            <br/> 
-                            <b className="font-bold">Consulte um nutricionista para ajustar sua alimentação.</b>
+                        <img
+                            class="w-52 h-32 md:w-[512px] md:h-64"
+                            src="./Micro/micronutrientes.png" alt="micronutrientes"
+                        />
+                    </div>
+                    {/* PORQUE SÃO IMPORTANTES */}
+                    <div className="flex flex-col gap-2 md:gap-4 justify-center text-lg md:text-xl">
+                        <h2 className="w-full max-[420px]:text-xl text-2xl md:text-[28px] font-semibold">
+                            Por que Vitaminas e Minerais são tão importantes?
+                        </h2>
+                        <p className="max-[420px]:text-lg text-xl">
+                            Apesar de precisarmos deles em pequenas quantidades, as vitaminas e minerais
+                            são fundamentais para manter nosso corpo funcionando. Eles regulam processos vitais,
+                            fortalecem a imunidade, protegem contra doenças e até influenciam nosso humor e energia diária.
+                            Sem eles, ficamos vulneráveis, cansados e com risco maior de desenvolver problemas de saúde.
                         </p>
-                        
-                        
-                    </main>
+                    </div>
+
+                    {/* VITAMINAS */}
+                    <div className="flex flex-col gap-2 md:gap-4 justify-center text-lg md:text-xl">
+                        <h2 className="w-full max-[420px]:text-xl text-2xl md:text-[28px] font-semibold">
+                            Vitaminas: Pequenas, mas poderosas!
+                        </h2>
+                        <p className="max-[420px]:text-lg text-xl">
+                            As vitaminas são compostos orgânicos que atuam como reguladores. Elas não dão energia
+                            diretamente, mas sem elas, seu corpo não consegue funcionar bem. Dividimos em lipossolúveis
+                            (armazenadas na gordura) e hidrossolúveis (não armazenadas, precisam ser consumidas sempre).
+                        </p>
+                    </div>
+                    {/* LOPOSSOLUVEIS */}
+                    <div className="w-full flex flex-col max-[420px]:gap-0 gap-4 md:gap-4 justify-center text-lg md:text-xl">
+                        <h3 className="font-medium max-[420px]:text-xl text-2xl">Vitaminas Lipossolúveis</h3>
+                        <span className="font-semibold max-[420px]:text-lg text-xl">A, D, E e K: Guardiãs de longo prazo</span>
+                        <ul className="max-[420px]:text-lg text-xl">
+                            <li className="list-disc ml-4"><span className="font-semibold">Vitamina D:</span> ossos fortes e imunidade. → Sol, peixes gordurosos, ovos.</li>
+                            <li className="list-disc ml-4"><span className="font-semibold">Vitamina E:</span> antioxidante, protege células. → Oleaginosas e óleos vegetais.</li>
+                            <li className="list-disc ml-4"><span className="font-semibold">Vitamina K:</span> coagulação e ossos. → Folhas verdes, brócolis, fígado.</li>
+                        </ul>
+                    </div>
+
+                    {/* HIDROSSOLUVEIS */}
+                    <div className="w-full flex flex-col max-[420px]:gap-0 gap-4 md:gap-4 justify-center text-lg md:text-xl">
+                        <h3 className="font-medium max-[420px]:text-xl text-2xl">Vitaminas Hidrossolúveis</h3>
+                        <span className="font-semibold max-[420px]:text-lg text-xl">Complexo B + Vitamina C: Energia e defesa diária</span>
+                        <div className="w-full flex flex-col lg:flex-row gap-2">
+                            <ul className="lg:w-1/2 max-[420px]:text-lg text-xl">
+                                <li className="list-disc ml-4"><span className="font-semibold">Vitamina C:</span> colágeno, imunidade e absorção de ferro. → Acerola, laranja, kiwi.</li>
+                                <li className="list-disc ml-4"><span className="font-semibold">Complexo B:</span> energia, cérebro e sangue.</li>
+                                <li className="list-none ml-8"><span className="font-semibold">○ B1:</span> metabolismo</li>
+                                <li className="list-none ml-8"><span className="font-semibold">○ B2:</span> pele e visão</li>
+                                <li className="list-none ml-8"><span className="font-semibold">○ B3:</span> energia</li>
+                                <li className="list-none ml-8"><span className="font-semibold">○ B5:</span> hormônios</li>
+                                <li className="list-none ml-8"><span className="font-semibold">○ B6:</span> neurotransmissores</li>
+                                <li className="list-none ml-8"><span className="font-semibold">○ B9:</span> essencial na gravidez</li>
+                                <li className="list-none ml-8"><span className="font-semibold">○ B12:</span> sangue e sistema nervoso</li>
+                            </ul>
+                            <img
+                                className="lg:w-[30rem] lg:h-[22rem]"
+                                src="https://static.todamateria.com.br/upload/ta/be/tabeladevitaminab-cke.jpg"
+                                alt="Tabela Vitamina B"
+                            />
+                        </div>
+                    </div>
+
+                    {/* MINERAIS */}
+                    <div className="flex flex-col gap-4 items-center text-xl">
+                        <h2 className="w-full max-[420px]:text-xl text-xl md:text-[28px] font-semibold">
+                            Minerais: A base estrutural do corpo
+                        </h2>
+                        <p className="max-[420px]:text-lg">
+                            São elementos inorgânicos essenciais. Eles fortalecem ossos, regulam músculos, equilibram líquidos e participam de praticamente todos os processos do organismo.
+                        </p>
+                        <img
+                            class="w-80 h-92 md:w-80 md:h-92"
+                            src="./Micro/arvoreMicronutrientes.png" alt="micronutrientes"
+                        />
+                    </div>
+
+                    <div className="w-full flex flex-col max-[420px]:gap-0 gap-4 justify-center">
+                        <h3 className="font-medium max-[420px]:text-xl text-2xl">Macrominerais</h3>
+                        <span className="font-semibold max-[420px]:text-lg text-xl">Os grandes pilares da saúde</span>
+                        <ul className="max-[420px]:text-lg text-xl">
+                            <li className="list-disc ml-4"><span className="font-semibold">Cálcio:</span> ossos e dentes. → Leite, queijo, couve.</li>
+                            <li className="list-disc ml-4"><span className="font-semibold">Fósforo:</span> energia (ATP). → Carnes, leguminosas.</li>
+                            <li className="list-disc ml-4"><span className="font-semibold">Magnésio:</span> relaxamento muscular. → Sementes, espinafre.</li>
+                            <li className="list-disc ml-4"><span className="font-semibold">Potássio</span> músculos e nervos. → Banana, batata.</li>
+                            <li className="list-disc ml-4"><span className="font-semibold">Sódio:</span> equilíbrio hídrico (com moderação). → Sal.</li>
+                        </ul>
+                    </div>
+
+                    <div className="w-full flex flex-col max-[420px]:gap-0 text-xl gap-4 justify-center">
+                        <h3 className="font-medium max-[420px]:text-xl text-2xl">Microminerais</h3>
+                        <span className="font-semibold max-[420px]:text-lg text-xl">Pequenos em quantidade, gigantes na função</span>
+                        <ul className="max-[420px]:text-lg text-xl">
+                            <li className="list-disc ml-4"><span className="font-semibold"> Ferro:</span> transporte de oxigênio. → Feijão, carnes.</li>
+                            <li className="list-disc ml-4"><span className="font-semibold"> Zinco:</span> imunidade e cicatrização. → Frutos do mar, sementes.</li>
+                            <li className="list-disc ml-4"><span className="font-semibold"> Iodo:</span> tireoide. → Sal iodado, peixes.</li>
+                            <li className="list-disc ml-4"><span className="font-semibold"> Selênio:</span> antioxidante. → Castanha-do-pará.</li>
+                            <li className="list-disc ml-4"><span className="font-semibold"> Flúor:</span> dentes fortes. → Água fluoretada.</li>
+                        </ul>
+                    </div>
+
+                    <div className="flex flex-col gap-4 justify-center items-center">
+                        <h2 className="w-full h-auto text-xl md:text-[28px] font-semibold">Pequenas doses, grandes impactos!</h2>
+                        <p className="w-full h-auto  max-[420px]:text-lg text-xl">
+                            Vitaminas e minerais não são apenas “detalhes” da nutrição, eles são a base invisível que sustenta sua energia, imunidade e bem-estar.
+                            <br />
+                            Por isso, antes de pensar em suplementos caros, lembre-se: uma alimentação variada, colorida e equilibrada já é o suficiente para garantir o combustível certo para o seu corpo funcionar no máximo!
+                        </p>
+                        <img
+                            className="w-60 h-60 md:w-64 md:h-64 rounded-3xl"
+                            src="./Micro/pratoColorido.jpg"
+                            alt="Prato Colorido"
+                        />
+                        <h3 className="text-lg hidden"> ► Veja também sobre micronutrientes</h3>
+                    </div>
+                    <p className="md:w-5/5 text-center bg-[#121220] text-[#F0F0F0] rounded-lg px-2 py-1 text-base font-sans uppercase">
+                        Não existe dieta ideal sem equilíbrio! Cada pessoa tem uma necessidade diferente.
+                        <br />
+                        <b className="font-bold">Consulte um nutricionista para ajustar sua alimentação.</b>
+                    </p>
+
+
+                </main>
             </div>
         </>
     )
