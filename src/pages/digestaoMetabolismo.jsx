@@ -19,109 +19,147 @@ export default function Digestao(){
                             px-2 py-2 rounded-lg flex flex-col gap-3 
                             md:px-4 md:py-4 md:flex md:flex-col md:gap-5 md:rounded-xl bg-[#E0E0E0]
                     ">
-                        {/* NUTRIÇÃO */}
+                        {/* Digestão e Metabolismo: como seu corpo transforma alimento em energia */}
                         <div className="flex flex-col items-center">
-                            <h2 className="w-full mb-8 text-2xl md:hidden font-bold">Nutrição Descomplicada</h2>
-                            <h2 className="w-full mb-8 hidden md:block md:text-3xl font-bold">Nutrição Descomplicada: Entenda seu corpo e alimente-se de forma inteligente</h2>
+                            <h2 className="w-full mb-8 text-2xl md:hidden font-bold">Digestão e Metabolismo</h2>
+                            <h2 className="w-full mb-8 hidden md:block md:text-3xl font-bold">Digestão e Metabolismo: como seu corpo transforma alimento em energia</h2>
                             <span className="w-full text-base">
-                                Descubra como a alimentação influencia sua energia, saúde e resultados — e aprenda a calcular exatamente o que seu corpo precisa.
+                                Você já parou para pensar o que acontece depois que come um prato de arroz e feijão? 
+                                O alimento não some magicamente — ele passa por um processo incrível de <b>digestão e 
+                                metabolismo</b>, que transforma cada garfada em energia para seu corpo funcionar. Vamos 
+                                entender, de forma simples e clara, como isso acontece.
                             </span>
                             <img className="w-80 h-80 drop-shadow-sm drop-shadow-zinc-700 " src="./Nutricao/balançaAlimentoXEnergia.png" alt="Balança do alimentos e"/>
                         </div>
 
-                        {/* Nutrição: a base da sua saúde e dos seus resultados */}
+                        {/* O que é Digestão? */}
                         <div className="flex flex-col items-center gap-4 my-4 md:my-8">
                             <h3 className="w-full text-2xl md:text-2xl font-bold">
-                                Nutrição: a base da sua saúde e dos seus resultados
+                                O que é Digestão?
                             </h3>
                             <span className="w-full text-base">
-                                Seja para perder peso, ganhar massa muscular ou simplesmente ter mais disposição 
-                                no dia a dia, tudo começa pela forma como você se alimenta. Mas, para se alimentar 
-                                bem, não basta escolher alimentos saudáveis: é preciso entender o quanto seu corpo 
-                                realmente precisa.
+                                A digestão é o processo que quebra os alimentos em partes 
+                                menores para que o corpo consiga <b>absorver nutrientes</b> e usá-los. 
+                                Ela combina movimentos mecânicos (mastigação, contrações do 
+                                estômago e intestino) com <b>reações químicas</b> (enzimas, ácidos, hormônios).
                             </span>
-                            <ul className="w-full">
-                                <li className="list-disc ml-4">
-                                    Manter o corpo funcionando (respiração, batimentos, temperatura corporal)
-                                </li>
-                                <li className="list-disc ml-4">
-                                    Realizar atividades do dia a dia (andar, trabalhar, estudar)
-                                </li>
-                                <li className="list-disc ml-4">
-                                    Suportar treinos e exercícios físicos
-                                </li>
-                            </ul>
-                            <img className="w-92 h-36 rounded-xl" src="./Nutricao/bateriaAlimentos.png" alt="" />
+                            <img className="w-92 h-36 rounded-xl" src="./Digestao/sistemaDigestivo.jpg" alt="" />
                         </div>
                         
-                        {/* TMB */}
+                        {/* Etapas da Digestão */}
                         <div className="flex flex-col items-center gap-4 my-4 md:my-8">
                             <h3 className="w-full mb-0 text-2xl md:text-2xl font-bold">
                                 O mínimo de energia para se manter vivo
                             </h3>
-                            <span className="w-full text-base">
-                                A <b>TMB (Taxa Metabólica Basal)</b> representa a quantidade mínima de energia que seu corpo 
-                                gasta em repouso, apenas para manter funções vitais. É o seu consumo energético 'básico', 
-                                mesmo que você ficasse deitado o dia inteiro sem fazer nada.
-                            </span>
-                            <span className="w-full h-auto pl-2 py-2 border-l-3 border-[#121234] bg-zinc-400 italic">
-                                💡 Se sua TMB for 1.600 calorias, isso significa que seu corpo gasta 1.600 kcal só para 
-                                sobreviver — sem contar atividades do dia a dia.
-                            </span>
-                            <img className="w-64 h-64 rounded-xl" src="./Nutricao/pessoaDescansando.jpeg" alt="Balança do alimentos e"/>
+                            <ol className="w-full font-bold">
+                                <li className="list-decimal ml-4">
+                                    Boca 🦷
+                                    <ul className="w-full font-normal">
+                                        <li className="list-disc ml-4">Mastigação quebra os alimentos.</li>
+                                        <li className="list-disc ml-4">A saliva (amilase) já começa a digerir o amido.</li>
+                                    </ul>
+                                </li>
+                                <li className="list-decimal ml-4">
+                                    Estômago 🍲
+                                    <ul className="w-full font-normal">
+                                        <li className="list-disc ml-4">Suco gástrico dissolve principalmente proteínas.</li>
+                                        <li className="list-disc ml-4">Forma o quimo (massa semilíquida).</li>
+                                    </ul>
+                                </li>
+                                <li className="list-decimal ml-4">
+                                    Intestino Delgado 🌱
+                                    <ul className="w-full font-normal">
+                                        <li className="list-disc ml-4">Onde ocorre a maior digestão e absorção.</li>
+                                        <li className="list-disc ml-4">Pâncreas → enzimas.</li>
+                                        <li className="list-disc ml-4">Fígado → bile (quebra gorduras).</li>
+                                        <li className="list-disc ml-4">Nutrientes caem no sangue.</li>
+                                    </ul>
+                                </li>
+                                <li className="list-decimal ml-4">
+                                    Intestino Grosso ♻️
+                                    <ul className="w-full font-normal">
+                                        <li className="list-disc ml-4">Absorve água.</li>
+                                        <li className="list-disc ml-4">Microbiota ajuda a produzir vitaminas e fermenta fibras.</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                            <div className="w-full flex justify-center items-center md:gap-16">
+                                <img 
+                                    className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-48 md:h-48 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" 
+                                    src="./Digestao/boca.png" alt="Imagem da boca"
+                                    width={"12rem"}
+                                    height={"12rem"}
+                                />
+                                <img 
+                                    className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-48 md:h-48 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" 
+                                    src="./Digestao/estomago.png" alt="Imagem do Estômago"
+                                    width={"12rem"}
+                                    height={"12rem"}
+                                />
+                                <img 
+                                    className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-48 md:h-48 drop-shadow-lg drop-shadow-zinc-700 rounded-xl" 
+                                    src="./Digestao/intestino.png" alt="Imagem do Intestino"
+                                    width={"12rem"}
+                                    height={"12rem"}
+                                />
+                            </div>
                         </div>
 
-                        {/* GET */}
+                        {/* O que é Metabolismo? */}
                         <div className="flex flex-col items-center gap-4 my-4 md:my-8">
                             <h3 className="w-full mb-0 text-2xl md:text-2xl font-bold">
-                                O cálculo real do seu gasto diário
+                                O que é Metabolismo?
                             </h3>
                             <span className="w-full text-base">
-                                O <b>GET (Gasto Energético Total)</b> é a soma da sua TMB com todas as suas atividades 
-                                diárias. Ele mostra quanto você realmente gasta de energia em um dia normal.
-                            </span>
-                            <ul className="w-full">
-                                <li className="list-disc ml-4">
-                                    <b>TMB:</b> energia para funções vitais
-                                </li>
-                                <li className="list-disc ml-4">
-                                    <b>Atividades do dia a dia:</b> trabalhar, estudar, caminhar
-                                </li>
-                                <li className="list-disc ml-4">
-                                    <b>Exercícios físicos:</b> treinos, esportes e academia
-                                </li>
-                            </ul>
-                            <span className="w-full h-auto pl-2 py-2 border-l-3 border-[#121234] bg-zinc-400 italic">
-                                🔎 Exemplo: Se sua TMB é 1.600 kcal e você gasta mais 600 kcal em atividades, seu GET 
-                                será 2.200 kcal/dia.
+                                Depois que os nutrientes entram no sangue, começa o 
+                                <b>metabolismo</b> — o conjunto de reações químicas que gera energia e mantém o corpo em funcionamento.
                             </span>
                             <img className="w-64 h-64 drop-shadow-md drop-shadow-zinc-500 rounded-xl" src="./Nutricao/infográficoTMBGET.png" alt=""/>
                         </div>
                         
-                        {/* Perder, manter ou ganhar peso */}
+                        {/* Tipos de Metabolismo */}
                         <div className="flex flex-col items-center gap-4 my-4 md:my-8">
                             <h3 className="w-full mb-0 text-2xl md:text-2xl font-bold">
-                                Perder, manter ou ganhar peso: tudo depende do equilíbrio calórico
+                                Tipos de Metabolismo
                             </h3>
-                            <span className="w-full text-base">
-                                Depois de conhecer sua TMB e seu GET, você pode ajustar sua alimentação de acordo 
-                                com seu objetivo:
-                            </span>
-                            <ul className="w-full">
-                                <li className="list-disc ml-4">
-                                    <b>Déficit calórico:</b> consumir menos do que gasta → emagrecimento
-                                </li>
-                                <li className="list-disc ml-4">
-                                    <b>Manutenção calórica:</b> consumir o mesmo que gasta → peso estável
-                                </li>
-                                <li className="list-disc ml-4">
-                                    <b>Superávit calórico:</b> consumir mais do que gasta → ganho de massa muscular
-                                </li>
-                            </ul>
-                            <div className="w-full flex justify-center items-center md:gap-2">
-                                <img className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-32 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" src="./Nutricao/refPequena01.png" alt=""/>
-                                <img className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-52 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" src="./Nutricao/refMedia01.png" alt=""/>
-                                <img className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-44 drop-shadow-lg drop-shadow-zinc-700 rounded-xl" src="./Nutricao/refGrande01.png" alt=""/>
+                            <div className="w-full flex flex-wrap">
+                                <ul className="w-1/2 flex flex-col items-center">
+                                    <li className="w-full"> Catabolismo
+                                        <ul className="w-full h-20">
+                                            <li className="list-disc ml-4">
+                                                Quebra moléculas grandes em pequenas.
+                                            </li>
+                                            <li className="list-disc ml-4">
+                                                Libera energia.
+                                            </li>
+                                            <li className="list-disc ml-4">
+                                                Exemplo: glicose → energia (ATP).
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <img 
+                                        className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-64 drop-shadow-lg drop-shadow-zinc-600 rounded-xl
+                                        " src="./Digestao/catabolismo.png" 
+                                        alt=""
+                                    />
+                                </ul>
+                                <ul className="w-1/2 flex flex-col items-center">
+                                    <li className="w-full"> Anabolismo
+                                        <ul className="w-full h-20">
+                                            <li className="list-disc ml-4">
+                                                Constrói moléculas usando energia.
+                                            </li>
+                                            <li className="list-disc ml-4">
+                                                Exemplo: aminoácidos → músculos.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <img 
+                                        className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-64 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" 
+                                        src="./Digestao/anabolismo.png" 
+                                        alt=""
+                                    />
+                                </ul>
                             </div>
                             
                         </div>

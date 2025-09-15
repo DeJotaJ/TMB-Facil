@@ -239,13 +239,13 @@ export default function Hidratacao(){
                                             Tenha sempre uma garrafinha por perto.
                                         </li>
                                         <li className="list-disc ml-4">
-                                        Use alarmes ou aplicativos de lembrete.
-                                        </li>
-                                        <li className="list-disc ml-4">
                                             Use alarmes ou aplicativos de lembrete.
                                         </li>
                                         <li className="list-disc ml-4">
                                             Coloque frutas e ervas (limão, hortelã) para dar sabor.
+                                        </li>
+                                        <li className="list-disc ml-4">
+                                            Observe sempre a cor da urina.
                                         </li>
                                     </ul>
                                 </div>
