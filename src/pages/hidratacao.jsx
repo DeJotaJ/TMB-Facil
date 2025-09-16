@@ -32,7 +32,7 @@ export default function Hidratacao(){
                             </span>
                             <img 
                                 className="w-80 h-48  md:w-[25rem] md:h-60 rounded-xl drop-shadow-sm drop-shadow-zinc-700 " 
-                                src="./Hidratacao/bebendoAgua.jpg" 
+                                src="./Hidratacao/bebendoAgua.webp" 
                                 alt="Balança do alimentos e"
                                 width={""}
                                 height={"20rem"}
@@ -49,7 +49,13 @@ export default function Hidratacao(){
                                 a sede, ela é responsável por manter todas as funções vitais ativas, 
                                 do cérebro ao coração, dos músculos às células da pele.
                             </span>
-                            <img className="w-64 h-72 rounded-xl" src="./Hidratacao/aguaCorpo.png" alt="" />
+                            <img 
+                                className="w-64 h-72 rounded-xl drop-shadow-sm drop-shadow-zinc-500" 
+                                src="./Hidratacao/aguaCorpo.webp" 
+                                alt="Porcentagem de agua no corpo" 
+                                width={"16rem"}
+                                height={"18rem"}
+                            />
                         </div>
                         
                         {/* Funções da Água no Corpo */}
@@ -110,8 +116,16 @@ export default function Hidratacao(){
                                 </ul>
                             </span>
                             <div className="w-full flex flex-col lg:flex-row justify-center lg:gap-64 items-center">
-                                <img className="w-40 h-40 drop-shadow-md drop-shadow-zinc-500 rounded-xl" src="./Hidratacao/copoMedida.png" alt=""/>
-                                <img className="w-64 h-40 drop-shadow-md drop-shadow-zinc-500 rounded-xl" src="./Hidratacao/urina.png" alt=""/>
+                                <img 
+                                    className="w-40 h-40 drop-shadow-md drop-shadow-zinc-500 rounded-xl" 
+                                    src="./Hidratacao/copoMedida.webp" 
+                                    alt="Copo de medida"
+                                />
+                                <img 
+                                    className="w-64 h-40 drop-shadow-md drop-shadow-zinc-500 rounded-xl" 
+                                    src="./Hidratacao/urina.webp" 
+                                    alt="Cor da urina"
+                                />
                             </div>
                         </div>
                         
@@ -142,8 +156,10 @@ export default function Hidratacao(){
                             </span>
                             <img 
                                 className="w-52 h-32 max-[390px]:w-48 max-[390px]:h-28 md:w-80 md:h-60 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" 
-                                src="./Hidratacao/frutasVerduras.png" 
-                                alt=""
+                                src="./Hidratacao/frutasVerduras.webp" 
+                                alt="Prato com frutas"
+                                width={"13rem"}
+                                height={"8rem"}
                             />
                             
                         </div>
@@ -166,8 +182,10 @@ export default function Hidratacao(){
                             </ul>
                             <img 
                                 className="w-80 h-48 md:w-[25rem] md:h-60 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" 
-                                src="./Hidratacao/pessoaSoando.jpg" 
-                                alt=""
+                                src="./Hidratacao/pessoaSoando.webp" 
+                                alt="Pessoa Soando"
+                                width={"20rem"}
+                                height={"12rem"}
                             />
                             
                         </div>
@@ -191,8 +209,10 @@ export default function Hidratacao(){
                             <div className="w-full flex justify-center items-center md:gap-2">
                                 <img 
                                     className="w-80 h-48 md:w-[25rem] md:h-60 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" 
-                                    src="./Hidratacao/aguaExercicio.jpg" 
+                                    src="./Hidratacao/aguaExercicio.webp" 
                                     alt=""
+                                    width={"20rem"}
+                                    height={"12rem"}
                                 />
                             </div>
                             
@@ -252,8 +272,10 @@ export default function Hidratacao(){
                             </div>
                             <img 
                                 className="hidden md:block md:w-32 md:h-64 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" 
-                                src="./Hidratacao/aguaLembrar.png" 
-                                alt=""
+                                src="./Hidratacao/aguaLembrar.webp" 
+                                alt="Como lembrar de tomar água"
+                                width={"8rem"}
+                                height={"16rem"}
                             />
                         </div>
                         
@@ -265,8 +287,10 @@ export default function Hidratacao(){
                             <div className="md:w-1/3 h-auto flex justify-center rounded-xl">
                                 <img 
                                     className="w-[30rem] h-[15rem] drop-shadow-sm drop-shadow-zinc-700 rounded-xl" 
-                                    src="./Hidratacao/bebendoAguaSorrindo.jpg" 
-                                    alt=""
+                                    src="./Hidratacao/bebendoAguaSorrindo.webp" 
+                                    alt="Mulher bebendo agua feliz"
+                                    width={"30rem"}
+                                    height={"15rem"}
                                 />
                             </div>
                         </div>
