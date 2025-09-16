@@ -15,7 +15,9 @@ export default function Micronutrientes() {
                         </h2>
                         <img
                             class="w-52 h-32 md:w-[512px] md:h-64"
-                            src="./Micro/micronutrientes.png" alt="micronutrientes"
+                            src="./Micro/micronutrientes.webp" 
+                            alt="micronutrientes"
+                            height={"16rem"}
                         />
                     </div>
                     {/* PORQUE SÃO IMPORTANTES */}
@@ -87,7 +89,10 @@ export default function Micronutrientes() {
                         </p>
                         <img
                             class="w-80 h-92 md:w-80 md:h-92"
-                            src="./Micro/arvoreMicronutrientes.png" alt="micronutrientes"
+                            src="./Micro/arvoreMicronutrientes.webp" 
+                            alt="micronutrientes"
+                            width={"20rem"}
+                            height={"23rem"}
                         />
                     </div>
 
@@ -124,8 +129,10 @@ export default function Micronutrientes() {
                         </p>
                         <img
                             className="w-60 h-60 md:w-64 md:h-64 rounded-3xl"
-                            src="./Micro/pratoColorido.jpg"
+                            src="./Micro/pratoColorido.webp"
                             alt="Prato Colorido"
+                            width={"16rem"}
+                            height={"16rem"}
                         />
                         <h3 className="text-lg hidden"> ► Veja também sobre micronutrientes</h3>
                     </div>

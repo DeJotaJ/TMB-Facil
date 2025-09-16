@@ -34,7 +34,8 @@ export default function Hidratacao(){
                                 className="w-80 h-48  md:w-[25rem] md:h-60 rounded-xl drop-shadow-sm drop-shadow-zinc-700 " 
                                 src="./Hidratacao/bebendoAgua.webp" 
                                 alt="Balança do alimentos e"
-                                width={""}
+                                fetchpriority="high"
+                                width={"25rem"}
                                 height={"20rem"}
                             />
                         </div>

@@ -5,6 +5,7 @@ export default function Home(){
         <>
             {/* BANNER */}
             <main
+                fetchpriority="high"
                 className="relative w-full min-h-[40vh] sm:min-h-[50vh] bg-[url('/prato01.webp')] sm:bg-[url('/prato02.webp')] bg-contain bg-top bg-no-repeat
                             flex
                             md:min-h-[80vh] 
