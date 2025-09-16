@@ -244,7 +244,7 @@ export default function Home(){
                         <div className="flex flex-col mt-2 md:m-0 gap-3 lg:gap-2">
                             <span className="text-base font-normal md:font-semibold">Quer entender de forma clara como tudo isso acontece no seu corpo?</span>
                             <span className="w-fit rounded-lg max-[420px]:text-sm text-base font-semibold bg-[#363648] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
-                                <a href="#" title="Página em construção">Ver explicação completa</a>
+                                <a href="/digestao-e-metabolismo" title="Página em construção">Ver explicação completa</a>
                             </span>
                         </div>
                     </section>
