@@ -136,7 +136,7 @@ export default function Digestao(){
                                         </ul>
                                     </li>
                                     <img 
-                                        className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-64 drop-shadow-md drop-shadow-zinc-200 rounded-xl
+                                        className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-64 mt-6 md:m-0 drop-shadow-md drop-shadow-zinc-200 rounded-xl
                                         " src="./Digestao/catabolismo.webp" 
                                         alt="Catabolismo"
                                         width={"16rem"}
@@ -155,7 +155,7 @@ export default function Digestao(){
                                         </ul>
                                     </li>
                                     <img 
-                                        className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-64 drop-shadow-md drop-shadow-zinc-200 rounded-xl" 
+                                        className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-64 mt-6 md:m-0 drop-shadow-md drop-shadow-zinc-200 rounded-xl" 
                                         src="./Digestao/anabolismo.webp" 
                                         alt="Anabolismo"
                                         width={"16rem"}

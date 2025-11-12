@@ -94,7 +94,7 @@ export default function Hidratacao(){
                             <span className="w-full text-base md:text-lg">
                                 A quantidade ideal varia de pessoa para pessoa, mas existe uma fórmula simples para calcular:
                             </span>
-                            <span className="w-full h-auto pl-2 py-2 border-l-3 border-[#121234] bg-[#B2F5FF] text-base md:text-lg font-medium">
+                            <span className="w-full h-auto pl-2 py-2 border-l-3 border-[#121234] bg-[#B2F5FF] text-base md:text-base font-medium">
                                 🔎 Exemplo: Se sua TMB é 1.600 kcal e você gasta mais 600 kcal em atividades, seu GET 
                                 será 2.200 kcal/dia.
                             </span>
@@ -104,7 +104,7 @@ export default function Hidratacao(){
                                 </li>
                             </ul>
                             <span className="w-full h-auto pl-2 py-2 border-l-3 border-[#121234] bg-zinc-400">
-                                <ul className="w-full text-base md:text-lg">
+                                <ul className="w-full text-base">
                                     <li className="">
                                         💡 Dica prática: Observe a cor da sua urina.
                                     </li>

@@ -10,7 +10,7 @@ export default function Header(){
 
     return(
         <>
-            <div className="h-[5vh] md:h-[10vh] w-full px-4 md:px-20 flex justify-between items-center bg-[#060612] text-[#F0F0F0] md:font-semibold">
+            <div className="h-[5vh] md:h-[10vh] w-full px-4 md:px-20 flex justify-center md:justify-between items-center bg-[#060612] text-[#F0F0F0] md:font-semibold">
                 <span className="text-lg md:text-4xl text-[#22C7D2]">
                     <a href="/" className="">
                         <img src="./LogoTMB02.png" className="max-x-12 max-h-8 md:max-w-24 md:max-h-16 text-sm" alt="Logomarca"/>

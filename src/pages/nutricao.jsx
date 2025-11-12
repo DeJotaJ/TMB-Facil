@@ -119,7 +119,7 @@ export default function Nutricao(){
                                 </li>
                             </ul>
                             <div className="w-full flex justify-center items-center md:gap-2">
-                                <img className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-32 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" src="./Nutricao/refPequena01.png" alt=""/>
+                                <img className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-48 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" src="./Nutricao/refPequena01.png" alt=""/>
                                 <img className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-52 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" src="./Nutricao/refMedia01.png" alt=""/>
                                 <img className="w-32 h-32 max-[390px]:w-28 max-[390px]:h-28 md:w-64 md:h-44 drop-shadow-lg drop-shadow-zinc-700 rounded-xl" src="./Nutricao/refGrande01.png" alt=""/>
                             </div>
