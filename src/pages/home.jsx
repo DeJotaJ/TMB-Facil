@@ -1,4 +1,5 @@
 import AdComponentMobile from "../components/adComponentMobile";
+import { Link } from 'react-router';
 
 export default function Home(){
     return(
@@ -26,8 +27,8 @@ export default function Home(){
                     ">
                         Alimentação inteligente e acessível.
                     </span>
-                    <a 
-                        href="/calculadora" 
+                    <Link 
+                        to="/calculadora" 
                         className="lg:w-fit h-fit py-1 px-4 md:px-4 lg:px-8"
                     > 
                         <span className="mx-4 px-3 py-1 border-transparent rounded-xl uppercase text-[#E7E7E7] font-semibold bg-[#121224]
@@ -39,7 +40,7 @@ export default function Home(){
                         ">
                             Calcule sua TMB e comece agora!
                         </span>
-                    </a>
+                    </Link>
                 </div>
             </main>
             {/* BANNER */}
@@ -115,7 +116,7 @@ export default function Home(){
                             <div className="flex flex-col mt-2 md:m-0 gap-4 lg:gap-2">
                                 <span className="text-base font-medium md:font-semibold">Quer entender de forma simples e prática como aplicar tudo isso no seu dia a dia?</span>
                                 <span className="w-fit rounded-lg max-[420px]:text-sm text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
-                                    <a href="/nutricao" title="Página sobre nutricao">Descubra os Fundamentos da Nutrição </a>
+                                    <Link to="/nutricao" title="Página sobre nutricao">Descubra os Fundamentos da Nutrição </Link>
                                 </span>
                             </div>
                         </div>
@@ -164,7 +165,7 @@ export default function Home(){
                         <div className="flex flex-col mt-2 md:m-0 gap-3 lg:gap-2">
                             <span className="text-base font-normal md:font-semibold">Quer entender como equilibrar cada macronutriente na sua dieta e usá-los a seu favor?</span>
                             <span className="w-fit rounded-lg max-[420px]:text-sm text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
-                                <a href="/macronutrientes" title="Página em construção">Descubra mais aqui</a>
+                                <Link to="/macronutrientes" title="Página em construção">Descubra mais aqui</Link>
                             </span>
                         </div>
                     </section>
@@ -193,7 +194,7 @@ export default function Home(){
                         <div className="flex flex-col mt-2 md:m-0 gap-3 lg:gap-2">
                             <span className="text-base font-normal md:font-semibold">Quer entender como cada micronutriente age no seu corpo e onde encontrá-los na alimentação? Descubra no guia completo.</span>
                             <span className="w-fit rounded-lg max-[420px]:text-sm text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
-                                <a href="/micronutrientes" title="Página em construção">Ver Guia de Micronutrientes</a>
+                                <Link to="/micronutrientes" title="Página em construção">Ver Guia de Micronutrientes</Link>
                             </span>
                         </div>
                     </section>
@@ -217,7 +218,7 @@ export default function Home(){
                         <div className="flex flex-col mt-2 md:m-0 gap-3 lg:gap-2">
                             <span className="text-base font-normal md:font-semibold">Quer entender como a hidratação pode transformar sua saúde e sua rotina? Clique abaixo e descubra os fundamentos completos.</span>
                             <span className="w-fit rounded-lg max-[420px]:text-sm text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#e7e7e7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
-                                <a href="/hidratacao" title="Página em construção">Saber mais sobre Hidratação</a>
+                                <Link to="/hidratacao" title="Página em construção">Saber mais sobre Hidratação</Link>
                             </span>
                         </div>
                     </section>
@@ -245,7 +246,7 @@ export default function Home(){
                         <div className="flex flex-col mt-2 md:m-0 gap-3 lg:gap-2">
                             <span className="text-base font-normal md:font-semibold">Quer entender de forma clara como tudo isso acontece no seu corpo?</span>
                             <span className="w-fit rounded-lg max-[420px]:text-sm text-base font-semibold bg-[#121224] px-2 py-1 md:py-0.5 text-[#f7f7f7] hover:underline hover:text-[#FFFFFF] hover:font-bold">
-                                <a href="/digestao-e-metabolismo" title="Página em construção">Ver explicação completa</a>
+                                <Link to="/digestao-e-metabolismo" title="Página em construção">Ver explicação completa</Link>
                             </span>
                         </div>
                     </section>

@@ -87,43 +87,46 @@ export default function Hidratacao(){
                         </div>
 
                         {/* Quanto de Água Beber por Dia? */}
-                        <div className="flex flex-col items-center gap-4 my-4 md:my-8">
+                        <div className="w-full flex-wrap flex flex-col items-center gap-4 my-4 md:flex-row md:my-8">
                             <h3 className="w-full mb-0 text-xl md:text-2xl font-bold">
                                 Quanto de Água Beber por Dia?
                             </h3>
                             <span className="w-full text-base md:text-lg">
                                 A quantidade ideal varia de pessoa para pessoa, mas existe uma fórmula simples para calcular:
                             </span>
-                            <span className="w-full h-auto pl-2 py-2 border-l-3 border-[#121234] bg-[#B2F5FF] text-base md:text-base font-medium">
-                                🔎 Exemplo: Se sua TMB é 1.600 kcal e você gasta mais 600 kcal em atividades, seu GET 
-                                será 2.200 kcal/dia.
-                            </span>
-                            <ul className="w-full text-base md:text-lg">
-                                <li className="list-disc ml-8">
-                                    Exemplo: uma pessoa de 70 kg precisa de 2,1 a 2,4 L por dia.
-                                </li>
-                            </ul>
-                            <span className="w-full h-auto pl-2 py-2 border-l-3 border-[#121234] bg-zinc-400">
-                                <ul className="w-full text-base">
-                                    <li className="">
-                                        💡 Dica prática: Observe a cor da sua urina.
-                                    </li>
-                                    <li className="list-disc ml-10">
-                                        Urina clara → boa hidratação.
-                                    </li>
-                                    <li className="list-disc ml-10">
-                                       Urina escura → precisa beber mais líquidos.
+                            <div className="w-full md:w-[45%] flex flex-col gap-4">
+                                <span className="w-full h-auto pl-2 py-2 border-l-3 border-[#121234] bg-[#B2F5FF] text-base md:text-base font-medium">
+                                    🔎 Exemplo: Se sua TMB é 1.600 kcal e você gasta mais 600 kcal em atividades, seu GET 
+                                    será 2.200 kcal/dia.
+                                </span>
+                                <ul className="w-full text-base md:text-lg">
+                                    <li className="list-disc ml-8">
+                                        Exemplo: uma pessoa de 70 kg precisa de 2,1 a 2,4 L por dia.
                                     </li>
                                 </ul>
-                            </span>
-                            <div className="w-full flex flex-col lg:flex-row justify-center lg:gap-64 items-center">
+                                <span className="w-full h-auto pl-2 py-2 border-l-3 border-[#121234] bg-zinc-400">
+                                    <ul className="w-full text-base">
+                                        <li className="">
+                                            💡 Dica prática: Observe a cor da sua urina.
+                                        </li>
+                                        <li className="list-disc ml-10">
+                                            Urina clara → boa hidratação.
+                                        </li>
+                                        <li className="list-disc ml-10">
+                                        Urina escura → precisa beber mais líquidos.
+                                        </li>
+                                    </ul>
+                                </span>
+
+                            </div>
+                            <div className="w-full md:w-[45%] h-auto flex flex-col justify-center items-center">
                                 <img 
-                                    className="w-40 h-40 drop-shadow-md drop-shadow-zinc-500 rounded-xl" 
+                                    className="w-36 h-36 drop-shadow-md drop-shadow-zinc-500 rounded-xl" 
                                     src="./Hidratacao/copoMedida.webp" 
                                     alt="Copo de medida"
                                 />
                                 <img 
-                                    className="w-64 h-40 drop-shadow-md drop-shadow-zinc-500 rounded-xl" 
+                                    className="w-60 h-36 drop-shadow-md drop-shadow-zinc-500 rounded-xl" 
                                     src="./Hidratacao/urina.webp" 
                                     alt="Cor da urina"
                                 />
@@ -131,37 +134,41 @@ export default function Hidratacao(){
                         </div>
                         
                         {/* Fontes de Hidratação */}
-                        <div className="flex flex-col items-center gap-4 my-4 md:my-8">
+                        <div className="w-full flex-wrap flex flex-col items-center gap-4 my-4 md:flex-row md:my-8">
                             <h3 className="w-full mb-0 text-xl md:text-2xl font-bold">
                                 Fontes de Hidratação                  
                             </h3>
                             <span className="w-full text-lg">
                                A água pura é insubstituível, mas você também pode se hidratar com outros alimentos e bebidas.
                             </span>
-                            <ul className="w-full text-base">
-                                <li className="list-disc ml-4">
-                                    <b>🍉 Frutas:</b> melancia, melão, laranja.
-                                </li>
-                                <li className="list-disc ml-4">
-                                    <b>🥗 Verduras:</b> pepino, alface, tomate.
-                                </li>
-                                <li className="list-disc ml-4">
-                                    <b>🥛 Leite e sopas.</b> 
-                                </li>
-                                <li className="list-disc ml-4">
-                                    <b>🍵 Chás naturais</b> (sem excesso de cafeína).
-                                </li>
-                            </ul>
-                            <span className="w-full h-auto pl-2 py-2 border-l-3 border-[#121234] bg-[#B2F5FF] text-base md:text-lg font-medium">
-                                ⚠️ Evite exagerar em refrigerantes, café e álcool → eles aumentam a perda de líquidos.
-                            </span>
-                            <img 
-                                className="w-52 h-32 max-[390px]:w-48 max-[390px]:h-28 md:w-80 md:h-60 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" 
-                                src="./Hidratacao/frutasVerduras.webp" 
-                                alt="Prato com frutas"
-                                width={"13rem"}
-                                height={"8rem"}
-                            />
+                            <div className="w-full md:w-[45%] flex flex-col gap-4">
+                                <ul className="w-full text-base">
+                                    <li className="list-disc ml-4">
+                                        <b>🍉 Frutas:</b> melancia, melão, laranja.
+                                    </li>
+                                    <li className="list-disc ml-4">
+                                        <b>🥗 Verduras:</b> pepino, alface, tomate.
+                                    </li>
+                                    <li className="list-disc ml-4">
+                                        <b>🥛 Leite e sopas.</b> 
+                                    </li>
+                                    <li className="list-disc ml-4">
+                                        <b>🍵 Chás naturais</b> (sem excesso de cafeína).
+                                    </li>
+                                </ul>
+                                <span className="w-full h-auto pl-2 py-2 border-l-3 border-[#121234] bg-[#B2F5FF] text-base md:text-lg font-medium">
+                                    ⚠️ Evite exagerar em refrigerantes, café e álcool → eles aumentam a perda de líquidos.
+                                </span>
+                            </div>
+                            <div className="w-full md:w-[45%] h-auto flex flex-col justify-center items-center">
+                                <img 
+                                    className="w-52 h-32 max-[390px]:w-48 max-[390px]:h-28 md:w-80 md:h-60 drop-shadow-lg drop-shadow-zinc-600 rounded-xl" 
+                                    src="./Hidratacao/frutasVerduras.webp" 
+                                    alt="Prato com frutas"
+                                    width={"13rem"}
+                                    height={"8rem"}
+                                />
+                            </div>
                             
                         </div>
 
