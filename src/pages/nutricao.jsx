@@ -148,11 +148,11 @@ export default function Nutricao(){
                         </div>
                     </section>
                 </article>
-                {/* ANUNCIOS*/}
+                {/* ANUNCIOS
                     <div className="hidden lg:w-1/6 max-h-full border-2 border-blue-600/0 py-4 px-2 md:flex flex-wrap items-start justify-center rounded-lg"> 
                         <AdComponentMobile/>
                     </div>
-                {/* ANUNCIOS*/}
+                 ANUNCIOS */}
             </div>
         </>
     )

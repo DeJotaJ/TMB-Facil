@@ -239,11 +239,12 @@ export default function CalculadoraTMB() {
             </form>
           </div>
         </div>
-        {/* ANUNCIOS MOBILE*/}
+        {/* ANUNCIOS MOBILE
           <div className=" border border-zinc-100/50 w-full max-h-[50px] rounded-lg"> 
             <AdComponentMobile/>
           </div>
-        {/* ANUNCIOS MOBILE*/}
+         ANUNCIOS MOBILE*/}
+         
         {/* Card de Resultados */}
         <div className="bg-[#E5E5E5] rounded-lg shadow-md overflow-hidden">
           <div className="p-6 border-b">
