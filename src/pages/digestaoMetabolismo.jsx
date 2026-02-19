@@ -4,11 +4,11 @@ export default function Digestao(){
     return(
         <>
             <div className="relative w-full min-h-screen flex justify-center  bg-[#E7E7E7] text-[#121224]">
-                {/* ANUNCIOS*/}
+                {/* ANUNCIOS
                     <div className="hidden lg:w-1/6 max-h-full border-2 border-blue-600/0 py-4 px-2 md:flex flex-wrap items-start justify-center rounded-lg"> 
                         <AdComponentMobile/>
                     </div>
-                {/* ANUNCIOS*/}
+                 ANUNCIOS*/}
                 <article className="
                         w-full  text-sm  flex flex-col items-center gap-2 py-1 px-1 bg-[#D0D0D0] md:bg-[#D0D0D0]
                         md:w-3/4 md:text-base md:px-2 md:py-2 md:gap-4
@@ -244,11 +244,11 @@ export default function Digestao(){
                         </div>
                     </section>
                 </article>
-                {/* ANUNCIOS*/}
+                {/* ANUNCIOS
                     <div className="hidden lg:w-1/6 max-h-full border-2 border-blue-600/0 py-4 px-2 md:flex flex-wrap items-start justify-center rounded-lg"> 
                         <AdComponentMobile/>
                     </div>
-                {/* ANUNCIOS*/}
+                 ANUNCIOS*/}
             </div>
         </>
     )

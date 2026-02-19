@@ -21,7 +21,7 @@ const AdComponentMobile = () => {
         style={{ display: "block", height: "50px" }}
         data-ad-client="ca-pub-9635044097775147"
         data-ad-slot="8088423058"
-        data-ad-format="auto"
+        data-ad-format="horizontal"
         data-full-width-responsive="true"
       ></ins>
     </>
